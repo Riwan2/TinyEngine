@@ -1,0 +1,7 @@
+/Users/coefficriwan/Public/opengl/TinyEngine/build/CMakeFiles/install/local.dir
+/Users/coefficriwan/Public/opengl/TinyEngine/build/CMakeFiles/rebuild_cache.dir
+/Users/coefficriwan/Public/opengl/TinyEngine/build/CMakeFiles/edit_cache.dir
+/Users/coefficriwan/Public/opengl/TinyEngine/build/CMakeFiles/install/strip.dir
+/Users/coefficriwan/Public/opengl/TinyEngine/build/CMakeFiles/TinyEngine.dir
+/Users/coefficriwan/Public/opengl/TinyEngine/build/CMakeFiles/install.dir
+/Users/coefficriwan/Public/opengl/TinyEngine/build/CMakeFiles/list_install_components.dir

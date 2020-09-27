@@ -1,0 +1,65 @@
+#version 330 core
+
+uniform sampler2D aTexture;
+out vec4 FragColor;
+
+in vec3 FragPos;
+in vec3 Normal;
+in vec2 TexCoord;
+
+uniform vec3 view_pos;
+
+const float ambient_strength = 0.3;
+const float specular_strength = 1.0;
+const float reflection = 32;
+
+const vec3 light_pos = vec3(0.0, 20.0, 0.0);
+const vec3 light_color = vec3(1.0, 1.0, 1.0);
+
+const vec3 color = vec3(1.0, 1.0, 1.0);
+
+const float near = 0.1;
+const float far = 100.0;
+
+float calculate_depth()
+{
+	float z = gl_FragCoord.z * 2.0 - 1.0; // back to NDC 
+    return (2.0 * near * far) / (far + near - z * (far - near)) / far;
+}
+
+vec3 calculate_ambient()
+{
+	return ambient_strength * light_color;
+}
+
+vec3 calculate_diffuse(vec3 norm, vec3 light_dir)
+{
+	float diffuse = max(dot(norm, light_dir), 0.0);
+	return diffuse * light_color;
+}
+
+vec3 calculate_specular(vec3 norm, vec3 light_dir)
+{
+	vec3 view_dir = normalize(view_pos - FragPos);
+	vec3 reflect_dir = reflect(-light_dir, norm);
+	float spec = pow(max(0.0, dot(view_dir, reflect_dir)), reflection);
+	return specular_strength * spec * light_color;
+}
+
+void main()
+{
+	vec3 norm = normalize(Normal);
+	vec3 light_dir = normalize(light_pos - FragPos);
+
+	vec3 ambient = calculate_ambient();
+	vec3 diffuse = calculate_diffuse(norm, light_dir);
+	vec3 specular = calculate_specular(norm, light_dir);
+	
+	vec3 result = (ambient + diffuse + specular) * color;
+
+	FragColor = vec4(result, 1.0);
+	//FragColor = texture(aTexture, TexCoord) * vec4(result, 1.0);
+
+	//float depth = calculate_depth();
+	//FragColor = vec4(vec3(depth), 1.0);
+}

@@ -1,0 +1,31 @@
+#version 330 core
+
+uniform sampler2D aTexture;
+uniform sampler2D aNoise;
+
+out vec4 FragColor;
+in vec2 TexCoord;
+
+uniform float time;
+
+const float offset = 1.0 / 300.0;
+
+void main()
+{	
+	vec3 noise1 = vec3(texture(aNoise, TexCoord / 10 + time / 80));
+	vec3 noise2 = vec3(texture(aNoise, TexCoord / 10 - time / 80));
+
+	vec3 noise = mix(noise1, noise2, 0.5);
+
+	vec2 tex = TexCoord;
+	tex.x += noise.x * 0.02;
+	tex.y += noise.y * 0.04;
+
+	// float pow = 5 * 3.14;
+	// float t = (30.0 * 3.14 / 180);
+	// float a = 0.03;
+	// tex.y += cos(pow*tex.x + t) * a;
+
+	FragColor = vec4(vec3(texture(aTexture, TexCoord)), 1.0);
+	//FragColor = vec4(vec3(gl_FragColor.z), 1.0);
+}

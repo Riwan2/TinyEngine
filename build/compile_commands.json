@@ -1,0 +1,112 @@
+[
+{
+  "directory": "/home/riwan/0-GameEngine/TinyEngine/build",
+  "command": "/usr/bin/c++   -I/usr/local/include/SDL2    -o CMakeFiles/TinyEngine.dir/home/riwan/0-GameEngine/TinyEngine/engine/application/app.cpp.o -c /home/riwan/0-GameEngine/TinyEngine/engine/application/app.cpp",
+  "file": "/home/riwan/0-GameEngine/TinyEngine/engine/application/app.cpp"
+},
+{
+  "directory": "/home/riwan/0-GameEngine/TinyEngine/build",
+  "command": "/usr/bin/c++   -I/usr/local/include/SDL2    -o CMakeFiles/TinyEngine.dir/home/riwan/0-GameEngine/TinyEngine/engine/application/event.cpp.o -c /home/riwan/0-GameEngine/TinyEngine/engine/application/event.cpp",
+  "file": "/home/riwan/0-GameEngine/TinyEngine/engine/application/event.cpp"
+},
+{
+  "directory": "/home/riwan/0-GameEngine/TinyEngine/build",
+  "command": "/usr/bin/c++   -I/usr/local/include/SDL2    -o CMakeFiles/TinyEngine.dir/home/riwan/0-GameEngine/TinyEngine/engine/basic/app_util.cpp.o -c /home/riwan/0-GameEngine/TinyEngine/engine/basic/app_util.cpp",
+  "file": "/home/riwan/0-GameEngine/TinyEngine/engine/basic/app_util.cpp"
+},
+{
+  "directory": "/home/riwan/0-GameEngine/TinyEngine/build",
+  "command": "/usr/bin/c++   -I/usr/local/include/SDL2    -o CMakeFiles/TinyEngine.dir/home/riwan/0-GameEngine/TinyEngine/engine/camera/camera.cpp.o -c /home/riwan/0-GameEngine/TinyEngine/engine/camera/camera.cpp",
+  "file": "/home/riwan/0-GameEngine/TinyEngine/engine/camera/camera.cpp"
+},
+{
+  "directory": "/home/riwan/0-GameEngine/TinyEngine/build",
+  "command": "/usr/bin/c++   -I/usr/local/include/SDL2    -o CMakeFiles/TinyEngine.dir/home/riwan/0-GameEngine/TinyEngine/engine/camera/camera_fps.cpp.o -c /home/riwan/0-GameEngine/TinyEngine/engine/camera/camera_fps.cpp",
+  "file": "/home/riwan/0-GameEngine/TinyEngine/engine/camera/camera_fps.cpp"
+},
+{
+  "directory": "/home/riwan/0-GameEngine/TinyEngine/build",
+  "command": "/usr/bin/c++   -I/usr/local/include/SDL2    -o CMakeFiles/TinyEngine.dir/home/riwan/0-GameEngine/TinyEngine/engine/camera/camera_tps.cpp.o -c /home/riwan/0-GameEngine/TinyEngine/engine/camera/camera_tps.cpp",
+  "file": "/home/riwan/0-GameEngine/TinyEngine/engine/camera/camera_tps.cpp"
+},
+{
+  "directory": "/home/riwan/0-GameEngine/TinyEngine/build",
+  "command": "/usr/bin/c++   -I/usr/local/include/SDL2    -o CMakeFiles/TinyEngine.dir/home/riwan/0-GameEngine/TinyEngine/engine/gui/renderer_2d.cpp.o -c /home/riwan/0-GameEngine/TinyEngine/engine/gui/renderer_2d.cpp",
+  "file": "/home/riwan/0-GameEngine/TinyEngine/engine/gui/renderer_2d.cpp"
+},
+{
+  "directory": "/home/riwan/0-GameEngine/TinyEngine/build",
+  "command": "/usr/bin/c++   -I/usr/local/include/SDL2    -o CMakeFiles/TinyEngine.dir/home/riwan/0-GameEngine/TinyEngine/engine/imgui/imgui.cpp.o -c /home/riwan/0-GameEngine/TinyEngine/engine/imgui/imgui.cpp",
+  "file": "/home/riwan/0-GameEngine/TinyEngine/engine/imgui/imgui.cpp"
+},
+{
+  "directory": "/home/riwan/0-GameEngine/TinyEngine/build",
+  "command": "/usr/bin/c++   -I/usr/local/include/SDL2    -o CMakeFiles/TinyEngine.dir/home/riwan/0-GameEngine/TinyEngine/engine/imgui/imgui_demo.cpp.o -c /home/riwan/0-GameEngine/TinyEngine/engine/imgui/imgui_demo.cpp",
+  "file": "/home/riwan/0-GameEngine/TinyEngine/engine/imgui/imgui_demo.cpp"
+},
+{
+  "directory": "/home/riwan/0-GameEngine/TinyEngine/build",
+  "command": "/usr/bin/c++   -I/usr/local/include/SDL2    -o CMakeFiles/TinyEngine.dir/home/riwan/0-GameEngine/TinyEngine/engine/imgui/imgui_draw.cpp.o -c /home/riwan/0-GameEngine/TinyEngine/engine/imgui/imgui_draw.cpp",
+  "file": "/home/riwan/0-GameEngine/TinyEngine/engine/imgui/imgui_draw.cpp"
+},
+{
+  "directory": "/home/riwan/0-GameEngine/TinyEngine/build",
+  "command": "/usr/bin/c++   -I/usr/local/include/SDL2    -o CMakeFiles/TinyEngine.dir/home/riwan/0-GameEngine/TinyEngine/engine/imgui/imgui_impl_opengl3.cpp.o -c /home/riwan/0-GameEngine/TinyEngine/engine/imgui/imgui_impl_opengl3.cpp",
+  "file": "/home/riwan/0-GameEngine/TinyEngine/engine/imgui/imgui_impl_opengl3.cpp"
+},
+{
+  "directory": "/home/riwan/0-GameEngine/TinyEngine/build",
+  "command": "/usr/bin/c++   -I/usr/local/include/SDL2    -o CMakeFiles/TinyEngine.dir/home/riwan/0-GameEngine/TinyEngine/engine/imgui/imgui_impl_sdl.cpp.o -c /home/riwan/0-GameEngine/TinyEngine/engine/imgui/imgui_impl_sdl.cpp",
+  "file": "/home/riwan/0-GameEngine/TinyEngine/engine/imgui/imgui_impl_sdl.cpp"
+},
+{
+  "directory": "/home/riwan/0-GameEngine/TinyEngine/build",
+  "command": "/usr/bin/c++   -I/usr/local/include/SDL2    -o CMakeFiles/TinyEngine.dir/home/riwan/0-GameEngine/TinyEngine/engine/imgui/imgui_widgets.cpp.o -c /home/riwan/0-GameEngine/TinyEngine/engine/imgui/imgui_widgets.cpp",
+  "file": "/home/riwan/0-GameEngine/TinyEngine/engine/imgui/imgui_widgets.cpp"
+},
+{
+  "directory": "/home/riwan/0-GameEngine/TinyEngine/build",
+  "command": "/usr/bin/c++   -I/usr/local/include/SDL2    -o CMakeFiles/TinyEngine.dir/home/riwan/0-GameEngine/TinyEngine/engine/main.cpp.o -c /home/riwan/0-GameEngine/TinyEngine/engine/main.cpp",
+  "file": "/home/riwan/0-GameEngine/TinyEngine/engine/main.cpp"
+},
+{
+  "directory": "/home/riwan/0-GameEngine/TinyEngine/build",
+  "command": "/usr/bin/c++   -I/usr/local/include/SDL2    -o CMakeFiles/TinyEngine.dir/home/riwan/0-GameEngine/TinyEngine/engine/mesh/quad_2d.cpp.o -c /home/riwan/0-GameEngine/TinyEngine/engine/mesh/quad_2d.cpp",
+  "file": "/home/riwan/0-GameEngine/TinyEngine/engine/mesh/quad_2d.cpp"
+},
+{
+  "directory": "/home/riwan/0-GameEngine/TinyEngine/build",
+  "command": "/usr/bin/c++   -I/usr/local/include/SDL2    -o CMakeFiles/TinyEngine.dir/home/riwan/0-GameEngine/TinyEngine/engine/render/frame_buffer.cpp.o -c /home/riwan/0-GameEngine/TinyEngine/engine/render/frame_buffer.cpp",
+  "file": "/home/riwan/0-GameEngine/TinyEngine/engine/render/frame_buffer.cpp"
+},
+{
+  "directory": "/home/riwan/0-GameEngine/TinyEngine/build",
+  "command": "/usr/bin/c++   -I/usr/local/include/SDL2    -o CMakeFiles/TinyEngine.dir/home/riwan/0-GameEngine/TinyEngine/engine/ressource/mesh.cpp.o -c /home/riwan/0-GameEngine/TinyEngine/engine/ressource/mesh.cpp",
+  "file": "/home/riwan/0-GameEngine/TinyEngine/engine/ressource/mesh.cpp"
+},
+{
+  "directory": "/home/riwan/0-GameEngine/TinyEngine/build",
+  "command": "/usr/bin/c++   -I/usr/local/include/SDL2    -o CMakeFiles/TinyEngine.dir/home/riwan/0-GameEngine/TinyEngine/engine/ressource/ressource_manager.cpp.o -c /home/riwan/0-GameEngine/TinyEngine/engine/ressource/ressource_manager.cpp",
+  "file": "/home/riwan/0-GameEngine/TinyEngine/engine/ressource/ressource_manager.cpp"
+},
+{
+  "directory": "/home/riwan/0-GameEngine/TinyEngine/build",
+  "command": "/usr/bin/c++   -I/usr/local/include/SDL2    -o CMakeFiles/TinyEngine.dir/home/riwan/0-GameEngine/TinyEngine/engine/ressource/shader.cpp.o -c /home/riwan/0-GameEngine/TinyEngine/engine/ressource/shader.cpp",
+  "file": "/home/riwan/0-GameEngine/TinyEngine/engine/ressource/shader.cpp"
+},
+{
+  "directory": "/home/riwan/0-GameEngine/TinyEngine/build",
+  "command": "/usr/bin/c++   -I/usr/local/include/SDL2    -o CMakeFiles/TinyEngine.dir/home/riwan/0-GameEngine/TinyEngine/engine/ressource/texture.cpp.o -c /home/riwan/0-GameEngine/TinyEngine/engine/ressource/texture.cpp",
+  "file": "/home/riwan/0-GameEngine/TinyEngine/engine/ressource/texture.cpp"
+},
+{
+  "directory": "/home/riwan/0-GameEngine/TinyEngine/build",
+  "command": "/usr/bin/c++   -I/usr/local/include/SDL2    -o CMakeFiles/TinyEngine.dir/home/riwan/0-GameEngine/TinyEngine/engine/scene/basic_scene.cpp.o -c /home/riwan/0-GameEngine/TinyEngine/engine/scene/basic_scene.cpp",
+  "file": "/home/riwan/0-GameEngine/TinyEngine/engine/scene/basic_scene.cpp"
+},
+{
+  "directory": "/home/riwan/0-GameEngine/TinyEngine/build",
+  "command": "/usr/bin/c++   -I/usr/local/include/SDL2    -o CMakeFiles/TinyEngine.dir/home/riwan/0-GameEngine/TinyEngine/engine/scene/scene.cpp.o -c /home/riwan/0-GameEngine/TinyEngine/engine/scene/scene.cpp",
+  "file": "/home/riwan/0-GameEngine/TinyEngine/engine/scene/scene.cpp"
+}
+]
