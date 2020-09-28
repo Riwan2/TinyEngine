@@ -110,7 +110,7 @@ void App::debug_gui()
 
 void App::game_gui()
 {
-
+	
 }
 
 /* 

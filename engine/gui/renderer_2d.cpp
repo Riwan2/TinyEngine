@@ -63,7 +63,7 @@ void Renderer2D::renderQuad(const glm::vec2&& position, const glm::vec2&& size)
 
 void Renderer2D::renderTexturedQuad(const glm::vec2&& position, const glm::vec2&& size, Texture* texture)
 {
-	m_texturedQuads.push(R_TexturedQuad { position, size, texture } );
+	m_textureQuads.push(R_TexturedQuad { position, size, texture } );
 }
 
 /*
@@ -84,8 +84,8 @@ void Renderer2D::quad_render()
 
 void Renderer2D::texturedQuad_render()
 {
-	while (!m_texturedQuads.empty()) {
-		R_TexturedQuad quad = m_texturedQuads.front();
+	while (!m_textureQuads.empty()) {
+		R_TexturedQuad quad = m_textureQuads.front();
 
 		quad.texture->bind();
 
@@ -93,7 +93,7 @@ void Renderer2D::texturedQuad_render()
 		m_quadShader->set_bool("textured", true);
 		m_quad2D->render();
 
-		m_texturedQuads.pop();
+		m_textureQuads.pop();
 	}
 }
 

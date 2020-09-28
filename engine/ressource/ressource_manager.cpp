@@ -40,7 +40,7 @@ void RessourceManager::load_mesh(const std::string&& name, const std::string&& f
 		throw std::runtime_error("error: mesh already exist [" + name + "] [" + filename + "]");
 	}
 
-	std::cout << "mesh: loaded [" << name << "] at [" << filename << "]" << '\n';
+	std::cout << "mesh: loaded [" << name << "] at [" << filename << "]" << std::endl;
 
 	Mesh* mesh = new Mesh();
 	mesh->load(std::move(filename));
@@ -72,7 +72,7 @@ void RessourceManager::remove_mesh(const std::string&& name)
 
 void RessourceManager::delete_mesh(const std::string name, Mesh* mesh)
 {
-	std::cout << "mesh: deleted [" << name << "]" << '\n';
+	std::cout << "mesh: deleted [" << name << "]" << std::endl;
 	delete mesh;
 }
 
@@ -87,7 +87,7 @@ void RessourceManager::load_shader(const std::string&& name, const std::string&&
 		throw std::runtime_error("error: shader already exist [" + name + "] [" + vertexFile + "] [" + fragmentFile + "]");
 	}
 
-	std::cout << "shader: loaded [" << name << "] at [" << vertexFile << "] [" << fragmentFile << "]" << '\n';
+	std::cout << "shader: loaded [" << name << "] at [" << vertexFile << "] [" << fragmentFile << "]" << std::endl;
 
 	Shader* shader = new Shader();
 	shader->load(std::move(vertexFile), std::move(fragmentFile));
@@ -119,7 +119,7 @@ void RessourceManager::remove_shader(const std::string&& name)
 
 void RessourceManager::delete_shader(const std::string name, Shader* shader)
 {
-	std::cout << "shader: deleted [" << name << "]" << '\n';
+	std::cout << "shader: deleted [" << name << "]" << std::endl;
 	delete shader;
 }
 
@@ -134,7 +134,7 @@ void RessourceManager::load_texture(const std::string&& name, const std::string&
 		throw std::runtime_error("error: texture already exist [" + name + "] [" + filename + "]");
 	}
 
-	std::cout << "texture: loaded [" << name << "] at [" << filename << "]" << '\n';
+	std::cout << "texture: loaded [" << name << "] at [" << filename << "]" << std::endl;
 
 	Texture* texture = new Texture();
 	texture->load(std::move(filename));
@@ -166,6 +166,6 @@ void RessourceManager::remove_texture(const std::string&& name)
 
 void RessourceManager::delete_texture(const std::string name, Texture* texture)
 {
-	std::cout << "texture: deleted [" << name << "]" << '\n';
+	std::cout << "texture: deleted [" << name << "]" << std::endl;
 	delete texture;
 }

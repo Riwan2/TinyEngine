@@ -1,9 +1,7 @@
 #ifndef RENDERER_2D_H
 #define RENDERER_2D_H
 
-#include "../ressource/shader.h"
 #include "../mesh/quad_2d.h"
-
 #include "gui_struct.h"
 
 #include <queue>
@@ -21,6 +19,7 @@ public:
 
 	void renderQuad(const glm::vec2&& position, const glm::vec2&& size);
 	void renderTexturedQuad(const glm::vec2&& position, const glm::vec2&& size, Texture* texture);
+	void renderCustomShaderQuad(const glm::vec2&& position, const glm::vec2&& size, Shader* shader);
 
 private:
 	Quad2D* m_quad2D;
@@ -32,8 +31,9 @@ private:
 
 	Texture* noise;
 
-	std::queue<R_Quad> m_quads;
-	std::queue<R_TexturedQuad> m_texturedQuads;
+	std::queue<R_Quad, std::deque<R_Quad>> m_quads;
+	std::queue<R_TexturedQuad, std::deque<R_TexturedQuad>> m_textureQuads;
+	std::queue<R_ShaderQuad, std::deque<R_ShaderQuad>> m_shaderQuads;
 
 	//screen
 	void screen_render(Texture* screen);
