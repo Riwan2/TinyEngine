@@ -7,69 +7,77 @@ Renderer2D::Renderer2D()
 
 Renderer2D::~Renderer2D()
 {
-	delete noise;
-	delete m_screenShader;
 	delete m_quadShader;
 	delete m_quad2D;
+}
+
+/*
+	init
+*/
+
+void Renderer2D::init(glm::vec2 displaySize)
+{
+	m_quad2D = new Quad2D();
+	m_quad2D->init();
+
+	m_quadShader = new Shader();
+	m_quadShader->load("gui/basic.vr", "gui/basic.fa");
+
+	resize(displaySize);
 }
 
 /*
 	render
 */
 
-void Renderer2D::render(Texture* screen)
+void Renderer2D::render()
 {
 	glDisable(GL_CULL_FACE);
 
-	screen_render(screen);
+	shaderQuad_render();
 
 	m_quadShader->bind();
 	m_quadShader->set_mat4("projection", m_projection);
 
 	quad_render();
-	texturedQuad_render();
+	textureQuad_render();
 
 	glEnable(GL_CULL_FACE);
 }
 
 /*
-	render gui
+	render screen effect
 */
 
-void Renderer2D::screen_render(Texture* screen)
+void Renderer2D::render_screen()
 {	
-	m_screenShader->bind();
-
-	static float time = 0;
-	time += 0.01f;
-	m_screenShader->set_float("time", time);
-
-	glActiveTexture(GL_TEXTURE0);
-	glBindTexture(GL_TEXTURE_2D, screen->textureID());
-
-	glActiveTexture(GL_TEXTURE1);
-	glBindTexture(GL_TEXTURE_2D, noise->textureID());
-
-	m_screenShader->set_int("aTexture", 0);
-	m_screenShader->set_int("aNoise", 1);
-	
 	m_quad2D->render();
 }
+
+/*
+	add to render list
+*/
 
 void Renderer2D::renderQuad(const glm::vec2&& position, const glm::vec2&& size)
 {
 	m_quads.push(R_Quad { position, size } );
 }
 
-void Renderer2D::renderTexturedQuad(const glm::vec2&& position, const glm::vec2&& size, Texture* texture)
+void Renderer2D::renderTextureQuad(const glm::vec2&& position, const glm::vec2&& size, Texture* texture)
 {
 	m_textureQuads.push(R_TexturedQuad { position, size, texture } );
+}
+
+void Renderer2D::renderShaderQuad(const glm::vec2&& position, const glm::vec2&& size, Shader* shader)
+{
+	m_shaderQuads.push(R_ShaderQuad { position, size, shader } );
 }
 
 /*
 	render specific methode
 */
 
+//basic quad
 void Renderer2D::quad_render()
 {
 	while (!m_quads.empty()) {
@@ -82,7 +90,8 @@ void Renderer2D::quad_render()
 	}
 }
 
-void Renderer2D::texturedQuad_render()
+//texture quad
+void Renderer2D::textureQuad_render()
 {
 	while (!m_textureQuads.empty()) {
 		R_TexturedQuad quad = m_textureQuads.front();
@@ -97,6 +106,21 @@ void Renderer2D::texturedQuad_render()
 	}
 }
 
+//shader quad
+void Renderer2D::shaderQuad_render()
+{
+	while (!m_shaderQuads.empty()) {
+		R_ShaderQuad quad = m_shaderQuads.front();
+
+		Shader* shader = quad.shader;
+		shader->set_mat4("model", quad_model(quad.position, quad.size));
+		shader->set_mat4("projection", m_projection);
+		m_quad2D->render();
+
+		m_shaderQuads.pop();
+	}
+}
+
 /*
 	quad util
 */
@@ -108,27 +132,6 @@ glm::mat4 Renderer2D::quad_model(glm::vec2 position, glm::vec2 size)
 	model = glm::translate(model, glm::vec3(position.x + mySize.x, position.y + mySize.y, 0.0f));
 	model = glm::scale(model, glm::vec3(mySize.x, mySize.y, 0.0f));
 	return model;
-}
-
-/*
-	init
-*/
-
-void Renderer2D::init(glm::vec2 displaySize)
-{
-	m_quad2D = new Quad2D();
-	m_quad2D->init();
-			
-	m_quadShader = new Shader();
-	m_quadShader->load("gui/basic.vr", "gui/basic.fa");
-
-	m_screenShader = new Shader();
-	m_screenShader->load("screen.vr", "screen.fa");
-
-	noise = new Texture();
-	noise->load("noise.jpg");
-
-	resize(displaySize);
 }
 
 void Renderer2D::resize(glm::vec2 displaySize)

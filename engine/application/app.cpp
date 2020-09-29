@@ -47,10 +47,14 @@ void App::load()
 	m_renderer2D->init(displaySize());
 
 	m_basicScene = new BasicScene();
-	m_basicScene->Scene::init();
-
-	m_basicScene->init();		
+	m_basicScene->Scene::init(m_renderer2D);		
 	m_basicScene->load();
+
+	m_screenShader = new Shader();
+	m_screenShader->load("screen.vr", "screen.fa");
+
+	m_noiseTexture = new Texture();
+	m_noiseTexture->load("noise.jpg");
 }
 
 /*
@@ -88,12 +92,37 @@ void App::update()
 	glDisable(GL_DEPTH_TEST);
 	glViewport(0, 0, displaySize().x, displaySize().y);
 
-	m_renderer2D->render(m_framebuffer->texture());
+	screen_render();
+	m_renderer2D->render();
 
 	ImGui::Render();
 	ImGui_ImplOpenGL3_RenderDrawData(ImGui::GetDrawData());
 
 	SDL_GL_SwapWindow(m_window);
+}
+
+/*
+	all the effect on screen
+*/
+
+void App::screen_render()
+{
+	m_screenShader->bind();
+
+	static float time = 0;
+	time += 0.01f;
+	m_screenShader->set_float("time", time);
+
+	glActiveTexture(GL_TEXTURE0);
+	glBindTexture(GL_TEXTURE_2D, m_framebuffer->textureID());
+
+	glActiveTexture(GL_TEXTURE1);
+	glBindTexture(GL_TEXTURE_2D, m_noiseTexture->textureID());
+
+	m_screenShader->set_int("aTexture", 0);
+	m_screenShader->set_int("aNoise", 1);
+
+	m_renderer2D->render_screen();
 }
 
 /*
@@ -110,7 +139,7 @@ void App::debug_gui()
 
 void App::game_gui()
 {
-	
+	m_basicScene->game_gui();
 }
 
 /* 
@@ -137,7 +166,12 @@ void App::on_resize()
 
 void App::cleanup()
 {
+	delete m_noiseTexture;
+	delete m_screenShader;
+
+	m_basicScene->Scene::cleanup();
 	delete m_basicScene;
+	
 	delete m_renderer2D;
 	delete m_framebuffer;
 	

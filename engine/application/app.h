@@ -29,6 +29,7 @@ public:
 	void update();
 	void cleanup();
 
+	void screen_render();
 	void debug_gui();
 	void game_gui();
 
@@ -41,9 +42,12 @@ private:
 	SDL_Window* m_window;
 	SDL_GLContext m_glContext;
 
-	BasicScene* m_basicScene;
+	Scene* m_basicScene;
 	FrameBuffer* m_framebuffer;
 	Renderer2D* m_renderer2D;
+
+	Shader* m_screenShader;
+	Texture* m_noiseTexture;
 
 	void init_sdl();
 	void init_gl();

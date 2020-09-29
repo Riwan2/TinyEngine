@@ -25,7 +25,6 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/shader.cpp" "/Users/coefficriwan/Public/opengl/TinyEngine/build/CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/shader.cpp.o"
   "/Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/texture.cpp" "/Users/coefficriwan/Public/opengl/TinyEngine/build/CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/texture.cpp.o"
   "/Users/coefficriwan/Public/opengl/TinyEngine/engine/scene/basic_scene.cpp" "/Users/coefficriwan/Public/opengl/TinyEngine/build/CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/scene/basic_scene.cpp.o"
-  "/Users/coefficriwan/Public/opengl/TinyEngine/engine/scene/scene.cpp" "/Users/coefficriwan/Public/opengl/TinyEngine/build/CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/scene/scene.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

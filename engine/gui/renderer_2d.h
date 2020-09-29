@@ -15,32 +15,29 @@ public:
 	void init(glm::vec2 displaySize);
 	void resize(glm::vec2 displaySize);
 
-	void render(Texture* screen);
+	void render();
+
+	//screen
+	void render_screen();
 
 	void renderQuad(const glm::vec2&& position, const glm::vec2&& size);
-	void renderTexturedQuad(const glm::vec2&& position, const glm::vec2&& size, Texture* texture);
-	void renderCustomShaderQuad(const glm::vec2&& position, const glm::vec2&& size, Shader* shader);
+	void renderTextureQuad(const glm::vec2&& position, const glm::vec2&& size, Texture* texture);
+	void renderShaderQuad(const glm::vec2&& position, const glm::vec2&& size, Shader* shader);
 
 private:
 	Quad2D* m_quad2D;
-	
 	Shader* m_quadShader;
-	Shader* m_screenShader;
 
 	glm::mat4 m_projection;
 
-	Texture* noise;
-
-	std::queue<R_Quad, std::deque<R_Quad>> m_quads;
-	std::queue<R_TexturedQuad, std::deque<R_TexturedQuad>> m_textureQuads;
-	std::queue<R_ShaderQuad, std::deque<R_ShaderQuad>> m_shaderQuads;
-
-	//screen
-	void screen_render(Texture* screen);
+	std::queue<R_Quad> m_quads;
+	std::queue<R_TexturedQuad> m_textureQuads;
+	std::queue<R_ShaderQuad> m_shaderQuads;
 
 	//render
 	void quad_render();
-	void texturedQuad_render();
+	void textureQuad_render();
+	void shaderQuad_render();
 
 	//util
 	glm::mat4 quad_model(glm::vec2 position, glm::vec2 size);

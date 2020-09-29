@@ -755,33 +755,6 @@ Users/coefficriwan/Public/opengl/TinyEngine/engine/scene/basic_scene.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/scene/basic_scene.cpp.s
 .PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/scene/basic_scene.cpp.s
 
-Users/coefficriwan/Public/opengl/TinyEngine/engine/scene/scene.o: Users/coefficriwan/Public/opengl/TinyEngine/engine/scene/scene.cpp.o
-
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/scene/scene.o
-
-# target to build an object file
-Users/coefficriwan/Public/opengl/TinyEngine/engine/scene/scene.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/scene/scene.cpp.o
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/scene/scene.cpp.o
-
-Users/coefficriwan/Public/opengl/TinyEngine/engine/scene/scene.i: Users/coefficriwan/Public/opengl/TinyEngine/engine/scene/scene.cpp.i
-
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/scene/scene.i
-
-# target to preprocess a source file
-Users/coefficriwan/Public/opengl/TinyEngine/engine/scene/scene.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/scene/scene.cpp.i
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/scene/scene.cpp.i
-
-Users/coefficriwan/Public/opengl/TinyEngine/engine/scene/scene.s: Users/coefficriwan/Public/opengl/TinyEngine/engine/scene/scene.cpp.s
-
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/scene/scene.s
-
-# target to generate assembly for a file
-Users/coefficriwan/Public/opengl/TinyEngine/engine/scene/scene.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/scene/scene.cpp.s
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/scene/scene.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -858,9 +831,6 @@ help:
 	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/scene/basic_scene.o"
 	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/scene/basic_scene.i"
 	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/scene/basic_scene.s"
-	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/scene/scene.o"
-	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/scene/scene.i"
-	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/scene/scene.s"
 .PHONY : help
 
 

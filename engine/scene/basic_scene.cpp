@@ -2,22 +2,17 @@
 
 BasicScene::BasicScene()
 {
-
-}
-
-BasicScene::~BasicScene()
-{
-	delete m_camera;
-}
-
-void BasicScene::init()
-{
 	m_camera = new CameraTPS();
 	m_camera->init(AppUtil::displaySize());
 
 	m_camera->target = glm::vec3(0.0, 3.75, 0.0);
 	m_camera->distance = 20;
 	m_camera->set_angleY(20);
+}
+
+BasicScene::~BasicScene()
+{
+	delete m_camera;
 }
 
 Texture* texture;
@@ -46,6 +41,10 @@ void BasicScene::update()
 
 	ressourceManager()->get_texture("grass")->bind();
 	ressourceManager()->get_mesh("dragon")->render();
+}
+
+void BasicScene::game_gui()
+{
 }
 
 void BasicScene::resize()

@@ -20,7 +20,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/shader.cpp.o"
   "CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/texture.cpp.o"
   "CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/scene/basic_scene.cpp.o"
-  "CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/scene/scene.cpp.o"
   "TinyEngine"
   "TinyEngine.pdb"
 )

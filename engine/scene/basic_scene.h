@@ -11,9 +11,9 @@ public:
 	BasicScene();
 	~BasicScene();
 
-	virtual void init() override;
 	virtual void load() override;
 	virtual void update() override;
+	virtual void game_gui() override;
 
 	virtual void resize() override;
 
