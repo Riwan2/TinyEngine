@@ -9,38 +9,39 @@
 class Renderer2D
 {
 public:
-	Renderer2D();
-	~Renderer2D();
+	static void init(glm::vec2 displaySize);
+	static void resize(glm::vec2 displaySize);
 
-	void init(glm::vec2 displaySize);
-	void resize(glm::vec2 displaySize);
+	static void render();
 
-	void render();
+	static void cleanup();
 
 	//screen
-	void render_screen();
+	static void render_screen();
 
-	void renderQuad(const glm::vec2&& position, const glm::vec2&& size);
-	void renderTextureQuad(const glm::vec2&& position, const glm::vec2&& size, Texture* texture);
-	void renderShaderQuad(const glm::vec2&& position, const glm::vec2&& size, Shader* shader);
+	static void renderQuad(const glm::vec2 &&position, const glm::vec2 &&size, const glm::vec3 &&color = glm::vec3(1.0, 1.0, 1.0));
+	static void renderQuad(const glm::vec2 &&position, const glm::vec2 &&size, const glm::vec4 &&color = glm::vec4(1.0, 1.0, 1.0, 1.0));
+
+	static void renderTextureQuad(const glm::vec2&& position, const glm::vec2&& size, Texture* texture);
+	static void renderShaderQuad(const glm::vec2 &&position, const glm::vec2 &&size, Shader *shader);
 
 private:
-	Quad2D* m_quad2D;
-	Shader* m_quadShader;
+	static Quad2D* m_quad2D;
+	static Shader *m_quadShader;
 
-	glm::mat4 m_projection;
+	static glm::mat4 m_projection;
 
-	std::queue<R_Quad> m_quads;
-	std::queue<R_TexturedQuad> m_textureQuads;
-	std::queue<R_ShaderQuad> m_shaderQuads;
+	static std::queue<R_Quad> m_quads;
+	static std::queue<R_TexturedQuad> m_textureQuads;
+	static std::queue<R_ShaderQuad> m_shaderQuads;
 
 	//render
-	void quad_render();
-	void textureQuad_render();
-	void shaderQuad_render();
+	static void quad_render();
+	static void textureQuad_render();
+	static void shaderQuad_render();
 
 	//util
-	glm::mat4 quad_model(glm::vec2 position, glm::vec2 size);
+	static glm::mat4 quad_model(glm::vec2 position, glm::vec2 size);
 
 };
 

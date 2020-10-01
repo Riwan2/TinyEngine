@@ -45,6 +45,7 @@ void BasicScene::update()
 
 void BasicScene::game_gui()
 {
+	
 }
 
 void BasicScene::resize()

@@ -1,11 +1,23 @@
 #include "renderer_2d.h"
 
-Renderer2D::Renderer2D()
-{
+/*
+	variable
+*/
 
-}
+Quad2D *Renderer2D::m_quad2D;
+Shader *Renderer2D::m_quadShader;
 
-Renderer2D::~Renderer2D()
+glm::mat4 Renderer2D::m_projection;
+
+std::queue<R_Quad> Renderer2D::m_quads;
+std::queue<R_TexturedQuad> Renderer2D::m_textureQuads;
+std::queue<R_ShaderQuad> Renderer2D::m_shaderQuads;
+
+/*
+	clean up
+*/
+
+void Renderer2D::cleanup()
 {
 	delete m_quadShader;
 	delete m_quad2D;
@@ -58,9 +70,14 @@ void Renderer2D::render_screen()
 	add to render list
 */
 
-void Renderer2D::renderQuad(const glm::vec2&& position, const glm::vec2&& size)
+void Renderer2D::renderQuad(const glm::vec2&& position, const glm::vec2&& size, const glm::vec3&& color)
 {
-	m_quads.push(R_Quad { position, size } );
+	m_quads.push(R_Quad { position, size, glm::vec4(color, 1.0) } );
+}
+
+void Renderer2D::renderQuad(const glm::vec2 &&position, const glm::vec2 &&size, const glm::vec4 &&color)
+{
+	m_quads.push(R_Quad{position, size, color});
 }
 
 void Renderer2D::renderTextureQuad(const glm::vec2&& position, const glm::vec2&& size, Texture* texture)
@@ -84,6 +101,7 @@ void Renderer2D::quad_render()
 		R_Quad quad = m_quads.front();
 	
 		m_quadShader->set_mat4("model", quad_model(quad.position, quad.size));
+		m_quadShader->set_vec4("color", quad.color);
 		m_quad2D->render();
 
 		m_quads.pop();

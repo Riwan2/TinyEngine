@@ -7,6 +7,8 @@
 #include "../render/frame_buffer.h"
 #include "../gui/renderer_2d.h"
 
+#include "../entity/ecs.h"
+
 #include <stdexcept>
 
 class App : public Event
@@ -44,10 +46,11 @@ private:
 
 	Scene* m_basicScene;
 	FrameBuffer* m_framebuffer;
-	Renderer2D* m_renderer2D;
 
 	Shader* m_screenShader;
 	Texture* m_noiseTexture;
+
+	ComponentManager* m_componentManager;
 
 	void init_sdl();
 	void init_gl();

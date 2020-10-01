@@ -9,6 +9,7 @@ CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/app
  /Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/base.h
  /Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera.h
  /Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_tps.h
+ /Users/coefficriwan/Public/opengl/TinyEngine/engine/entity/ecs.h
  /Users/coefficriwan/Public/opengl/TinyEngine/engine/gui/gui_struct.h
  /Users/coefficriwan/Public/opengl/TinyEngine/engine/gui/renderer_2d.h
  /Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imconfig.h
@@ -1534,6 +1535,7 @@ CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/mai
  /Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/base.h
  /Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera.h
  /Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_tps.h
+ /Users/coefficriwan/Public/opengl/TinyEngine/engine/entity/ecs.h
  /Users/coefficriwan/Public/opengl/TinyEngine/engine/gui/gui_struct.h
  /Users/coefficriwan/Public/opengl/TinyEngine/engine/gui/renderer_2d.h
  /Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imconfig.h

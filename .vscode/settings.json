@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.fa": "glsl",
+        "*.vr": "glsl",
+        "type_traits": "cpp"
+    }
+}

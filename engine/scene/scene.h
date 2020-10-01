@@ -10,15 +10,11 @@
 class Scene
 {
 public:
-	virtual ~Scene() {}
-
-	void init(Renderer2D* renderer2D)
-	{
+	Scene() {
 		m_ressourceManager = new RessourceManager();
-		m_renderer2D = renderer2D;
 	}
 
-	void cleanup() {
+	virtual ~Scene() {
 		delete m_ressourceManager;
 	}
 	
@@ -30,11 +26,9 @@ public:
 
 protected:
 	RessourceManager* ressourceManager() { return m_ressourceManager; }
-	Renderer2D* renderer2D() { return m_renderer2D; }
 
 private:
 	RessourceManager* m_ressourceManager;
-	Renderer2D* m_renderer2D;
 };
 
 #endif //SCENE_H

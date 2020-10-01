@@ -8,6 +8,7 @@ CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/app
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/application/app.cpp.o: /Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/base.h
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/application/app.cpp.o: /Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera.h
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/application/app.cpp.o: /Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_tps.h
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/application/app.cpp.o: /Users/coefficriwan/Public/opengl/TinyEngine/engine/entity/ecs.h
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/application/app.cpp.o: /Users/coefficriwan/Public/opengl/TinyEngine/engine/gui/gui_struct.h
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/application/app.cpp.o: /Users/coefficriwan/Public/opengl/TinyEngine/engine/gui/renderer_2d.h
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/application/app.cpp.o: /Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imconfig.h
@@ -1533,6 +1534,7 @@ CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/mai
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/main.cpp.o: /Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/base.h
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/main.cpp.o: /Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera.h
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/main.cpp.o: /Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_tps.h
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/main.cpp.o: /Users/coefficriwan/Public/opengl/TinyEngine/engine/entity/ecs.h
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/main.cpp.o: /Users/coefficriwan/Public/opengl/TinyEngine/engine/gui/gui_struct.h
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/main.cpp.o: /Users/coefficriwan/Public/opengl/TinyEngine/engine/gui/renderer_2d.h
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/main.cpp.o: /Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imconfig.h

@@ -10,6 +10,7 @@ struct R_Quad
 {
 	glm::vec2 position;
 	glm::vec2 size;
+	glm::vec4 color;
 };
 
 struct R_TexturedQuad

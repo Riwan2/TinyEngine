@@ -43,11 +43,9 @@ void App::load()
 	m_framebuffer = new FrameBuffer();
 	m_framebuffer->init(displaySize());
 
-	m_renderer2D = new Renderer2D();
-	m_renderer2D->init(displaySize());
+	Renderer2D::init(displaySize());
 
 	m_basicScene = new BasicScene();
-	m_basicScene->Scene::init(m_renderer2D);		
 	m_basicScene->load();
 
 	m_screenShader = new Shader();
@@ -55,6 +53,12 @@ void App::load()
 
 	m_noiseTexture = new Texture();
 	m_noiseTexture->load("noise.jpg");
+
+	m_componentManager = new ComponentManager();
+	m_componentManager->add_component<BasicComponent>(new BasicComponent());
+	m_componentManager->add_component<PowerComponent>(new PowerComponent());
+
+	m_componentManager->remove_component<BasicComponent>();
 }
 
 /*
@@ -93,7 +97,7 @@ void App::update()
 	glViewport(0, 0, displaySize().x, displaySize().y);
 
 	screen_render();
-	m_renderer2D->render();
+	Renderer2D::render();
 
 	ImGui::Render();
 	ImGui_ImplOpenGL3_RenderDrawData(ImGui::GetDrawData());
@@ -122,7 +126,7 @@ void App::screen_render()
 	m_screenShader->set_int("aTexture", 0);
 	m_screenShader->set_int("aNoise", 1);
 
-	m_renderer2D->render_screen();
+	Renderer2D::render_screen();
 }
 
 /*
@@ -156,7 +160,7 @@ void App::on_resize()
 	AppUtil::set_displaySize(displaySize());
 	m_basicScene->resize();
 
-	m_renderer2D->resize(displaySize());
+	Renderer2D::resize(displaySize());
 	m_framebuffer->resize(displaySize());
 }
 
@@ -166,13 +170,15 @@ void App::on_resize()
 
 void App::cleanup()
 {
+	std::cout << "\nCLEAN UP" << std::endl;
 	delete m_noiseTexture;
 	delete m_screenShader;
 
-	m_basicScene->Scene::cleanup();
+	delete m_componentManager;
 	delete m_basicScene;
 	
-	delete m_renderer2D;
+	Renderer2D::cleanup();
+
 	delete m_framebuffer;
 	
 	ImGui_ImplOpenGL3_Shutdown();
