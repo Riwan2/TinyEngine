@@ -78,10 +78,6 @@ glm/glm.hpp
 ../ressource/shader.h
 /Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/shader.h
 
-/Users/coefficriwan/Public/opengl/TinyEngine/engine/gui/renderer_2d.cpp
-renderer_2d.h
-/Users/coefficriwan/Public/opengl/TinyEngine/engine/gui/renderer_2d.h
-
 /Users/coefficriwan/Public/opengl/TinyEngine/engine/gui/renderer_2d.h
 ../mesh/quad_2d.h
 /Users/coefficriwan/Public/opengl/TinyEngine/engine/mesh/quad_2d.h

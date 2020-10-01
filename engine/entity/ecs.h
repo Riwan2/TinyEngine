@@ -46,8 +46,7 @@ public:
 
     ~ComponentManager()
     {
-        for (auto component : m_components)
-        {
+        for (auto component : m_components) {
             std::string name = typeid(*component).name();
             delete_component(component, std::move(name));
         }
@@ -58,10 +57,8 @@ public:
     {
         std::string name = typeid(T).name();
 
-        for (auto component : m_components)
-        {
-            if (dynamic_cast<T *>(component))
-            {
+        for (auto component : m_components) {
+            if (dynamic_cast<T *>(component)) {
                 throw std::runtime_error("error: component already exist [" + name + "]");
             }
         }
@@ -76,20 +73,15 @@ public:
         std::string name = typeid(T).name();
         Component *target = nullptr;
 
-        for (auto component : m_components)
-        {
-            if (dynamic_cast<T *>(component))
-            {
+        for (auto component : m_components) {
+            if (dynamic_cast<T *>(component)) {
                 target = component;
             }
         }
 
-        if (target != nullptr)
-        {
+        if (target != nullptr) {
             return target;
-        }
-        else
-        {
+        } else {
             throw std::runtime_error("error: component doesn't exist [" + name + "]");
         }
     }
