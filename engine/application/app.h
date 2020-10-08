@@ -19,11 +19,20 @@ public:
 
 	void run() {
 		init();
+
+		TimeProfiler::begin();
 		load();
+		TimeProfiler::end("loading time");
+
 		while (running) {
+			//TimeProfiler::begin();
 			update();
+			//TimeProfiler::end("update time");
 		}
+
+		TimeProfiler::begin();
 		cleanup();
+		TimeProfiler::end("clean up time");
 	}
 
 	void init();
@@ -49,8 +58,6 @@ private:
 
 	Shader* m_screenShader;
 	Texture* m_noiseTexture;
-
-	ComponentManager* m_componentManager;
 
 	void init_sdl();
 	void init_gl();

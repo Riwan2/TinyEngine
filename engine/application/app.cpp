@@ -53,12 +53,6 @@ void App::load()
 
 	m_noiseTexture = new Texture();
 	m_noiseTexture->load("noise.jpg");
-
-	m_componentManager = new ComponentManager();
-	m_componentManager->add_component<BasicComponent>(new BasicComponent());
-	m_componentManager->add_component<PowerComponent>(new PowerComponent());
-
-	m_componentManager->remove_component<BasicComponent>();
 }
 
 /*
@@ -89,6 +83,7 @@ void App::update()
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT | GL_STENCIL_BUFFER_BIT);
 
 	m_basicScene->update();
+	m_basicScene->render();
 
 	//second render pass
 	glBindFramebuffer(GL_FRAMEBUFFER, 0);
@@ -97,6 +92,7 @@ void App::update()
 	glViewport(0, 0, displaySize().x, displaySize().y);
 
 	screen_render();
+	
 	Renderer2D::render();
 
 	ImGui::Render();
@@ -174,7 +170,6 @@ void App::cleanup()
 	delete m_noiseTexture;
 	delete m_screenShader;
 
-	delete m_componentManager;
 	delete m_basicScene;
 	
 	Renderer2D::cleanup();

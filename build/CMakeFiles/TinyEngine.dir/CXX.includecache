@@ -42,7 +42,15 @@ glm/glm.hpp
 glm/glm.hpp
 -
 
-/Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/base.h
+/Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/time_profiler.h
+chrono
+-
+string
+-
+iostream
+-
+
+/Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera.h
 glm/glm.hpp
 -
 glm/gtc/matrix_transform.hpp
@@ -52,22 +60,42 @@ glm/gtc/quaternion.hpp
 glm/gtx/quaternion.hpp
 -
 
-/Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera.h
-../basic/base.h
-/Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/base.h
-
 /Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_tps.h
 camera.h
 /Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera.h
 
+/Users/coefficriwan/Public/opengl/TinyEngine/engine/component/component.h
+
 /Users/coefficriwan/Public/opengl/TinyEngine/engine/entity/ecs.h
-list
+vector
 -
 string
 -
 iostream
 -
 typeinfo
+-
+unordered_map
+-
+transform.h
+/Users/coefficriwan/Public/opengl/TinyEngine/engine/entity/transform.h
+../basic/time_profiler.h
+/Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/time_profiler.h
+../ressource/mesh.h
+/Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/mesh.h
+../ressource/shader.h
+/Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/shader.h
+../ressource/texture.h
+/Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/texture.h
+
+/Users/coefficriwan/Public/opengl/TinyEngine/engine/entity/transform.h
+glm/glm.hpp
+-
+glm/gtc/matrix_transform.hpp
+-
+glm/gtc/quaternion.hpp
+-
+glm/gtx/quaternion.hpp
 -
 
 /Users/coefficriwan/Public/opengl/TinyEngine/engine/gui/gui_struct.h
@@ -130,6 +158,14 @@ glm/glm.hpp
 ../ressource/texture.h
 /Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/texture.h
 
+/Users/coefficriwan/Public/opengl/TinyEngine/engine/render/renderer.h
+glm/glm.hpp
+-
+../entity/ecs.h
+/Users/coefficriwan/Public/opengl/TinyEngine/engine/entity/ecs.h
+../camera/camera.h
+/Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera.h
+
 /Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/mesh.h
 GL/glew.h
 -
@@ -143,8 +179,10 @@ sstream
 -
 string
 -
-../basic/base.h
-/Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/base.h
+glm/glm.hpp
+-
+glm/gtc/matrix_transform.hpp
+-
 
 /Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/ressource_manager.h
 unordered_map
@@ -199,6 +237,10 @@ scene.h
 /Users/coefficriwan/Public/opengl/TinyEngine/engine/gui/renderer_2d.h
 ../basic/app_util.h
 /Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/app_util.h
+../component/component.h
+/Users/coefficriwan/Public/opengl/TinyEngine/engine/component/component.h
+../render/renderer.h
+/Users/coefficriwan/Public/opengl/TinyEngine/engine/render/renderer.h
 
 /usr/local/Cellar/glew/2.1.0_1/include/GL/glew.h
 stddef.h

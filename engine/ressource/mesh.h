@@ -9,7 +9,15 @@
 #include <sstream>
 #include <string>
 
-#include "../basic/base.h"
+#include <glm/glm.hpp>
+#include <glm/gtc/matrix_transform.hpp>
+
+struct Vertex
+{
+	glm::vec3 position;
+	glm::vec3 normal;
+	glm::vec2 texCoord;
+};
 
 class Mesh
 {
@@ -20,6 +28,8 @@ public:
 	void load(const std::string&& filename, bool info = false);
 	void init(Vertex* vertices, int numVertices, GLuint* indices, int numIndices);
 	void render();
+
+	int numVertices() { return m_numVertices;}
 
 private:
 	GLuint m_vao;

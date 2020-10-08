@@ -269,6 +269,33 @@ Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/app_util.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/app_util.cpp.s
 .PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/app_util.cpp.s
 
+Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/time_profiler.o: Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/time_profiler.cpp.o
+
+.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/time_profiler.o
+
+# target to build an object file
+Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/time_profiler.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/time_profiler.cpp.o
+.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/time_profiler.cpp.o
+
+Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/time_profiler.i: Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/time_profiler.cpp.i
+
+.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/time_profiler.i
+
+# target to preprocess a source file
+Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/time_profiler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/time_profiler.cpp.i
+.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/time_profiler.cpp.i
+
+Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/time_profiler.s: Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/time_profiler.cpp.s
+
+.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/time_profiler.s
+
+# target to generate assembly for a file
+Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/time_profiler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/time_profiler.cpp.s
+.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/time_profiler.cpp.s
+
 Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera.o: Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera.cpp.o
 
 .PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera.o
@@ -620,6 +647,33 @@ Users/coefficriwan/Public/opengl/TinyEngine/engine/render/frame_buffer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/render/frame_buffer.cpp.s
 .PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/render/frame_buffer.cpp.s
 
+Users/coefficriwan/Public/opengl/TinyEngine/engine/render/renderer.o: Users/coefficriwan/Public/opengl/TinyEngine/engine/render/renderer.cpp.o
+
+.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/render/renderer.o
+
+# target to build an object file
+Users/coefficriwan/Public/opengl/TinyEngine/engine/render/renderer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/render/renderer.cpp.o
+.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/render/renderer.cpp.o
+
+Users/coefficriwan/Public/opengl/TinyEngine/engine/render/renderer.i: Users/coefficriwan/Public/opengl/TinyEngine/engine/render/renderer.cpp.i
+
+.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/render/renderer.i
+
+# target to preprocess a source file
+Users/coefficriwan/Public/opengl/TinyEngine/engine/render/renderer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/render/renderer.cpp.i
+.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/render/renderer.cpp.i
+
+Users/coefficriwan/Public/opengl/TinyEngine/engine/render/renderer.s: Users/coefficriwan/Public/opengl/TinyEngine/engine/render/renderer.cpp.s
+
+.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/render/renderer.s
+
+# target to generate assembly for a file
+Users/coefficriwan/Public/opengl/TinyEngine/engine/render/renderer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/render/renderer.cpp.s
+.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/render/renderer.cpp.s
+
 Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/mesh.o: Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/mesh.cpp.o
 
 .PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/mesh.o
@@ -777,6 +831,9 @@ help:
 	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/app_util.o"
 	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/app_util.i"
 	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/app_util.s"
+	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/time_profiler.o"
+	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/time_profiler.i"
+	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/time_profiler.s"
 	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera.o"
 	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera.i"
 	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera.s"
@@ -816,6 +873,9 @@ help:
 	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/render/frame_buffer.o"
 	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/render/frame_buffer.i"
 	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/render/frame_buffer.s"
+	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/render/renderer.o"
+	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/render/renderer.i"
+	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/render/renderer.s"
 	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/mesh.o"
 	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/mesh.i"
 	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/mesh.s"

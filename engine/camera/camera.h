@@ -1,7 +1,10 @@
 #ifndef CAMERA_H
 #define CAMERA_H
 
-#include "../basic/base.h"
+#include <glm/glm.hpp>
+#include <glm/gtc/matrix_transform.hpp>
+#include <glm/gtc/quaternion.hpp>
+#include <glm/gtx/quaternion.hpp>
 
 const glm::vec3 RIGHT = glm::vec3(1.0, 0.0, 0.0);
 const glm::vec3 UP = glm::vec3(0.0, 1.0, 0.0);

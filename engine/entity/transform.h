@@ -1,5 +1,5 @@
-#ifndef BASE_H
-#define BASE_H
+#ifndef TRANSFORM_H
+#define TRANSFORM_H
 
 /* 
 	Tiny Engine basic structure
@@ -12,13 +12,6 @@
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/quaternion.hpp>
 #include <glm/gtx/quaternion.hpp>
-
-struct Vertex
-{
-	glm::vec3 position;
-	glm::vec3 normal;
-	glm::vec2 texCoord;
-};
 
 struct Transform
 {
@@ -50,4 +43,4 @@ struct Transform
 	glm::mat4 model;
 };
 
-#endif //BASE_H
+#endif //TRANSFORM_H

@@ -13,9 +13,9 @@ public:
 	RessourceManager();
 	~RessourceManager();
 
-	void load_mesh(const std::string&& name, const std::string&& filename);
-	void load_shader(const std::string&& name, const std::string&& vertexFile, const std::string&& fragmentFile);
-	void load_texture(const std::string&& name, const std::string&& filename);
+	Mesh* load_mesh(const std::string&& name, const std::string&& filename);
+	Shader* load_shader(const std::string&& name, const std::string&& vertexFile, const std::string&& fragmentFile);
+	Texture* load_texture(const std::string&& name, const std::string&& filename);
 
 	Mesh* get_mesh(const std::string&& name);
 	Shader* get_shader(const std::string&& name);

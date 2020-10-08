@@ -33,9 +33,10 @@ RessourceManager::~RessourceManager()
 	mesh
 */
 
-void RessourceManager::load_mesh(const std::string&& name, const std::string&& filename)
+Mesh* RessourceManager::load_mesh(const std::string&& name, const std::string&& filename)
 {
 	auto it = m_meshManager.find(name);
+	
 	if (it != m_meshManager.end()) {
 		throw std::runtime_error("error: mesh already exist [" + name + "] [" + filename + "]");
 	}
@@ -45,6 +46,7 @@ void RessourceManager::load_mesh(const std::string&& name, const std::string&& f
 	Mesh* mesh = new Mesh();
 	mesh->load(std::move(filename));
 	m_meshManager.emplace(name, mesh);
+	return mesh;
 }
 
 Mesh* RessourceManager::get_mesh(const std::string&& name)
@@ -80,27 +82,27 @@ void RessourceManager::delete_mesh(const std::string name, Mesh* mesh)
 	shader
 */
 
-void RessourceManager::load_shader(const std::string&& name, const std::string&& vertexFile, const std::string&& fragmentFile)
+Shader* RessourceManager::load_shader(const std::string&& name, const std::string&& vertexFile, const std::string&& fragmentFile)
 {
 	auto it = m_shaderManager.find(name);
-	if (it != m_shaderManager.end()) {
+
+	if (it != m_shaderManager.end())
 		throw std::runtime_error("error: shader already exist [" + name + "] [" + vertexFile + "] [" + fragmentFile + "]");
-	}
 
 	std::cout << "shader: loaded [" << name << "] at [" << vertexFile << "] [" << fragmentFile << "]" << std::endl;
 
 	Shader* shader = new Shader();
 	shader->load(std::move(vertexFile), std::move(fragmentFile));
 	m_shaderManager.emplace(name, shader);
+	return shader;
 }
 
 Shader* RessourceManager::get_shader(const std::string&& name)
 {
 	auto it = m_shaderManager.find(name);
 
-	if (it == m_shaderManager.end()) {
+	if (it == m_shaderManager.end())
 		throw std::runtime_error("error: shader doesn't exist [" + name + "]");
-	}
 
 	return it->second;
 }
@@ -109,9 +111,8 @@ void RessourceManager::remove_shader(const std::string&& name)
 {
 	auto it = m_shaderManager.find(name);
 
-	if (it == m_shaderManager.end()) {
+	if (it == m_shaderManager.end())
 		throw std::runtime_error("error: shader doesn't exist [" + name + "]");
-	}
 
 	delete_shader(name, it->second);
 	m_shaderManager.erase(it);
@@ -127,27 +128,27 @@ void RessourceManager::delete_shader(const std::string name, Shader* shader)
 	texture
 */
 
-void RessourceManager::load_texture(const std::string&& name, const std::string&& filename)
+Texture* RessourceManager::load_texture(const std::string&& name, const std::string&& filename)
 {
 	auto it = m_textureManager.find(name);
-	if (it != m_textureManager.end()) {
+
+	if (it != m_textureManager.end())
 		throw std::runtime_error("error: texture already exist [" + name + "] [" + filename + "]");
-	}
 
 	std::cout << "texture: loaded [" << name << "] at [" << filename << "]" << std::endl;
 
 	Texture* texture = new Texture();
 	texture->load(std::move(filename));
 	m_textureManager.emplace(name, texture);
+	return texture;
 }
 
 Texture* RessourceManager::get_texture(const std::string&& name)
 {
 	auto it = m_textureManager.find(name);
 
-	if (it == m_textureManager.end()) {
+	if (it == m_textureManager.end())
 		throw std::runtime_error("error: texture doesn't exist [" + name + "]");
-	}
 
 	return it->second;
 }
@@ -156,9 +157,8 @@ void RessourceManager::remove_texture(const std::string&& name)
 {
 	auto it = m_textureManager.find(name);
 
-	if (it == m_textureManager.end()) {
+	if (it == m_textureManager.end())
 		throw std::runtime_error("error: texture doesn't exist [" + name + "]");
-	}
 
 	delete_texture(name, it->second);
 	m_textureManager.erase(it);

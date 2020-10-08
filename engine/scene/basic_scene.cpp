@@ -5,6 +5,8 @@ BasicScene::BasicScene()
 	m_camera = new CameraTPS();
 	m_camera->init(AppUtil::displaySize());
 
+	renderer()->set_camera(m_camera);
+
 	m_camera->target = glm::vec3(0.0, 3.75, 0.0);
 	m_camera->distance = 20;
 	m_camera->set_angleY(20);
@@ -19,9 +21,21 @@ Texture* texture;
 
 void BasicScene::load()
 {
-	ressourceManager()->load_mesh("dragon", "dragon.obj");	
-	ressourceManager()->load_shader("shader", "shader.vr", "shader.fa");
-	ressourceManager()->load_texture("grass", "grass.jpg");
+	Mesh* mesh = ressourceManager()->load_mesh("dragon", "dragon.obj");
+	Texture* texture = ressourceManager()->load_texture("grass", "grass.jpg");
+	Shader* shader = ressourceManager()->load_shader("shader", "shader.vr", "shader.fa");
+
+	entityManager()->add_batch("tree");
+	auto trees = entityManager()->get_batch("tree");
+
+	for (int i = 0; i < 1; i++) {
+		Entity* entity = new Entity(mesh, texture, shader);
+		entity->transform()->scale = glm::vec3(0.1);
+		entity->transform()->position = glm::vec3(i * 1.5 - 7.5, 3.0, 0.0);
+		entity->transform()->update();
+
+		trees->push_back(entity);
+	}
 }
 
 void BasicScene::update()
@@ -32,15 +46,7 @@ void BasicScene::update()
 	m_camera->move_angleAround(0.5);
 	m_camera->update();
 
-	Shader* shader = ressourceManager()->get_shader("shader");
-	shader->bind();
-
-	shader->set_mat4("model", transform.model);
-	shader->set_mat4("projection_view", m_camera->projection_view());
-	shader->set_vec3("view_pos", m_camera->position);
-
-	ressourceManager()->get_texture("grass")->bind();
-	ressourceManager()->get_mesh("dragon")->render();
+	entityManager()->update();
 }
 
 void BasicScene::game_gui()
