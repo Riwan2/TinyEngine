@@ -9,10 +9,6 @@ Shader *Renderer2D::m_quadShader;
 
 glm::mat4 Renderer2D::m_projection;
 
-std::queue<R_Quad> Renderer2D::m_quads;
-std::queue<R_TexturedQuad> Renderer2D::m_textureQuads;
-std::queue<R_ShaderQuad> Renderer2D::m_shaderQuads;
-
 /*
 	clean up
 */
@@ -39,21 +35,25 @@ void Renderer2D::init(glm::vec2 displaySize)
 }
 
 /*
-	render
+	begin
 */
 
-void Renderer2D::render()
+void Renderer2D::begin(bool customShader)
 {
 	glDisable(GL_CULL_FACE);
 
-	shaderQuad_render();
+	if (!customShader) {
+		m_quadShader->bind();
+		m_quadShader->set_mat4("projection", m_projection);
+	}
+}
 
-	m_quadShader->bind();
-	m_quadShader->set_mat4("projection", m_projection);
+/*
+	end
+*/
 
-	quad_render();
-	textureQuad_render();
-
+void Renderer2D::end()
+{
 	glEnable(GL_CULL_FACE);
 }
 
@@ -67,76 +67,36 @@ void Renderer2D::render_screen()
 }
 
 /*
-	add to render list
+	render
 */
 
 void Renderer2D::renderQuad(const glm::vec2&& position, const glm::vec2&& size, const glm::vec3&& color)
 {
-	m_quads.push(R_Quad { position, size, glm::vec4(color, 1.0) } );
+	m_quadShader->set_mat4("model", quad_model(position, size));
+	m_quadShader->set_vec4("color", glm::vec4(color, 1.0));
+	m_quad2D->render();
 }
 
 void Renderer2D::renderQuad(const glm::vec2 &&position, const glm::vec2 &&size, const glm::vec4 &&color)
 {
-	m_quads.push(R_Quad{position, size, color});
+	m_quadShader->set_mat4("model", quad_model(position, size));
+	m_quadShader->set_vec4("color", color);
+	m_quad2D->render();
 }
 
 void Renderer2D::renderTextureQuad(const glm::vec2&& position, const glm::vec2&& size, Texture* texture)
 {
-	m_textureQuads.push(R_TexturedQuad { position, size, texture } );
+	texture->bind();
+	m_quadShader->set_mat4("model", quad_model(position, size));
+	m_quadShader->set_bool("textured", true);
+	m_quad2D->render();
 }
 
 void Renderer2D::renderShaderQuad(const glm::vec2&& position, const glm::vec2&& size, Shader* shader)
 {
-	m_shaderQuads.push(R_ShaderQuad { position, size, shader } );
-}
-
-/*
-	render specific methode
-*/
-
-//basic quad
-void Renderer2D::quad_render()
-{
-	while (!m_quads.empty()) {
-		R_Quad quad = m_quads.front();
-	
-		m_quadShader->set_mat4("model", quad_model(quad.position, quad.size));
-		m_quadShader->set_vec4("color", quad.color);
-		m_quad2D->render();
-
-		m_quads.pop();
-	}
-}
-
-//texture quad
-void Renderer2D::textureQuad_render()
-{
-	while (!m_textureQuads.empty()) {
-		R_TexturedQuad quad = m_textureQuads.front();
-
-		quad.texture->bind();
-
-		m_quadShader->set_mat4("model", quad_model(quad.position, quad.size));
-		m_quadShader->set_bool("textured", true);
-		m_quad2D->render();
-
-		m_textureQuads.pop();
-	}
-}
-
-//shader quad
-void Renderer2D::shaderQuad_render()
-{
-	while (!m_shaderQuads.empty()) {
-		R_ShaderQuad quad = m_shaderQuads.front();
-
-		Shader* shader = quad.shader;
-		shader->set_mat4("model", quad_model(quad.position, quad.size));
-		shader->set_mat4("projection", m_projection);
-		m_quad2D->render();
-
-		m_shaderQuads.pop();
-	}
+	shader->set_mat4("model", quad_model(position, size));
+	shader->set_mat4("projection", m_projection);
+	m_quad2D->render();
 }
 
 /*

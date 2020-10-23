@@ -1,13 +1,11 @@
 #ifndef EVENT_H
 #define EVENT_H
 
-#include <SDL.h>
-#include <iostream>
-#include <glm/glm.hpp>
-
 #include "../imgui/imgui.h"
 #include "../imgui/imgui_impl_sdl.h"
 #include "../imgui/imgui_impl_opengl3.h"
+
+#include "../basic/input.h"
 
 class Event
 {
@@ -27,7 +25,6 @@ protected:
 
 private:
 	glm::vec2 m_displaySize;
-
 };
 
 #endif //EVENT_H

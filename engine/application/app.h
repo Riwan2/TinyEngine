@@ -1,15 +1,14 @@
 #ifndef APP_H
 #define APP_H
 
-#include "event.h"
+#include <stdexcept>
 
-#include "../scene/basic_scene.h"
+#include "event.h"
 #include "../render/frame_buffer.h"
 #include "../gui/renderer_2d.h"
 
 #include "../entity/ecs.h"
-
-#include <stdexcept>
+#include "../scene/scene_manager.h"
 
 class App : public Event
 {
@@ -19,20 +18,13 @@ public:
 
 	void run() {
 		init();
-
-		TimeProfiler::begin();
 		load();
-		TimeProfiler::end("loading time");
 
 		while (running) {
-			//TimeProfiler::begin();
 			update();
-			//TimeProfiler::end("update time");
 		}
 
-		TimeProfiler::begin();
 		cleanup();
-		TimeProfiler::end("clean up time");
 	}
 
 	void init();
@@ -53,8 +45,8 @@ private:
 	SDL_Window* m_window;
 	SDL_GLContext m_glContext;
 
-	Scene* m_basicScene;
 	FrameBuffer* m_framebuffer;
+	SceneManager* m_sceneManager;
 
 	Shader* m_screenShader;
 	Texture* m_noiseTexture;

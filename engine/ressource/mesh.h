@@ -19,6 +19,13 @@ struct Vertex
 	glm::vec2 texCoord;
 };
 
+struct TriangleIndex
+{
+	GLuint index1;
+	GLuint index2;
+	GLuint index3;
+};
+
 class Mesh
 {
 public:
@@ -26,7 +33,7 @@ public:
 	~Mesh();
 
 	void load(const std::string&& filename, bool info = false);
-	void init(Vertex* vertices, int numVertices, GLuint* indices, int numIndices);
+	void init(Vertex* vertices, int numVertices, TriangleIndex* triangleIndices, int numTriangleIndices);
 	void render();
 
 	int numVertices() { return m_numVertices;}
@@ -37,11 +44,11 @@ private:
 	GLuint m_ebo;
 
 	Vertex* m_vertices;
-	GLuint* m_indices;
+	TriangleIndex* m_indices;
 	int m_numVertices;
-	int m_numIndices;
+	int m_numTriangleIndices;
 
-	void setup_mesh(Vertex* vertices, int numVertices, GLuint* indices, int numIndices);
+	void setup_mesh(Vertex* vertices, int numVertices, TriangleIndex* indices, int numIndices);
 	void load_from_file(const char* filename, bool info);
 };
 

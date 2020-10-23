@@ -8,7 +8,6 @@
 #include <unordered_map>
 
 #include "transform.h"
-#include "../basic/time_profiler.h"
 
 #include "../ressource/mesh.h"
 #include "../ressource/shader.h"
@@ -153,6 +152,7 @@ public:
         m_mesh = mesh;
         m_texture = texture;
         m_shader = shader;
+        moved = false;
     }
     
     ~Entity() {
@@ -164,12 +164,32 @@ public:
         components()->update();
     }
 
+    //moving methode
+    void move(const glm::vec3& move) { 
+        transform()->position += move;
+        moved = true;
+    }
+    
+    void scale(const glm::vec3& scale) { 
+        transform()->scale *= scale; 
+        moved = true;
+    }
+
+    void rotate(const glm::vec3& rotation) {
+        transform()->rotation.x += glm::radians(fmod(rotation.x, 360));
+        transform()->rotation.y += glm::radians(fmod(rotation.y, 360));
+        transform()->rotation.z += glm::radians(fmod(rotation.z, 360));
+        moved = true;
+    }
+
     ComponentManager* components() { return m_components; }
     Transform* transform() { return m_transform; }
 
     Mesh* mesh() { return m_mesh; }
     Texture* texture() { return m_texture; }
     Shader* shader() { return m_shader; }
+
+    bool moved;
     
 private:
     ComponentManager* m_components; 
@@ -192,8 +212,6 @@ public:
     }
 
     ~EntityManager() {
-        TimeProfiler::begin();
-
         auto batch = m_entities_batch.begin();
         while (batch != m_entities_batch.end()) {
             delete_batch(batch->first, batch->second);
@@ -205,8 +223,6 @@ public:
             delete_entity(entity->first, entity->second);
             entity++;
         }
-
-        TimeProfiler::end("entity remove");
     }
 
     void update()
@@ -226,14 +242,14 @@ public:
         }
     }
 
-    void add_entity(std::string&& name, Mesh* mesh, Texture* texture, Shader* shader)
+    void add_entity(std::string&& name, Entity* entity)
     {
         auto it = m_entities.find(name);
 
         if (it != m_entities.end())
             throw std::runtime_error("error: entity already exist [" + name + "]");
 
-        m_entities.emplace(name, new Entity(mesh, texture, shader));
+        m_entities.emplace(name, entity);
         std::cout << "entity: added [" + name + "]" << std::endl;
     }
 

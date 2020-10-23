@@ -45,8 +45,8 @@ void App::load()
 
 	Renderer2D::init(displaySize());
 
-	m_basicScene = new BasicScene();
-	m_basicScene->load();
+	m_sceneManager = new SceneManager();
+	m_sceneManager->load_scene(eScene::basic);
 
 	m_screenShader = new Shader();
 	m_screenShader->load("screen.vr", "screen.fa");
@@ -70,30 +70,28 @@ void App::update()
 	if (DEBUG)
 		debug_gui();
 
-	game_gui();
-
 	//first render pass
 	m_framebuffer->bind();
 
 	glEnable(GL_DEPTH_TEST);
 	glDepthFunc(GL_LESS);
+	glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
 
 	glViewport(0, 0, displaySize().x, displaySize().y);
 	glClearColor(AppUtil::clearColor().r, AppUtil::clearColor().g, AppUtil::clearColor().b, AppUtil::clearColor().a);
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT | GL_STENCIL_BUFFER_BIT);
 
-	m_basicScene->update();
-	m_basicScene->render();
+	m_sceneManager->update();
 
 	//second render pass
 	glBindFramebuffer(GL_FRAMEBUFFER, 0);
-
+	
+	glPolygonMode(GL_FRONT_AND_BACK, GL_FILL);
 	glDisable(GL_DEPTH_TEST);
 	glViewport(0, 0, displaySize().x, displaySize().y);
 
 	screen_render();
-	
-	Renderer2D::render();
+	game_gui();
 
 	ImGui::Render();
 	ImGui_ImplOpenGL3_RenderDrawData(ImGui::GetDrawData());
@@ -139,7 +137,7 @@ void App::debug_gui()
 
 void App::game_gui()
 {
-	m_basicScene->game_gui();
+	m_sceneManager->game_gui();
 }
 
 /* 
@@ -154,7 +152,7 @@ void App::on_quit()
 void App::on_resize()
 {
 	AppUtil::set_displaySize(displaySize());
-	m_basicScene->resize();
+	m_sceneManager->resize();
 
 	Renderer2D::resize(displaySize());
 	m_framebuffer->resize(displaySize());
@@ -170,8 +168,7 @@ void App::cleanup()
 	delete m_noiseTexture;
 	delete m_screenShader;
 
-	delete m_basicScene;
-	
+	m_sceneManager->cleanup();
 	Renderer2D::cleanup();
 
 	delete m_framebuffer;

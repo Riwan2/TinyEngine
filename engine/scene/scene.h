@@ -1,12 +1,29 @@
 #ifndef SCENE_H
 #define SCENE_H
 
+#include "../basic/input.h"
+
 #include "../ressource/ressource_manager.h"
 #include "../gui/renderer_2d.h"
 #include "../basic/app_util.h"
 
 #include "../component/component.h"
 #include "../render/renderer.h"
+
+enum eScene
+{
+	menu,
+	basic,
+};
+
+class ScenePicker
+{
+public:
+	ScenePicker() {}
+	~ScenePicker() {}
+
+ 	virtual void load_scene(eScene sceneType) = 0;
+};
 
 class Scene
 {
@@ -22,6 +39,8 @@ public:
 		delete m_entityManager;
 		delete m_ressourceManager;
 	}
+
+	void bind_sceneManager(ScenePicker* sceneManager) { m_sceneManager = sceneManager; }
 	
 	virtual void load() = 0;
 	virtual void update() = 0;
@@ -49,10 +68,14 @@ protected:
 	EntityManager* entityManager() { return m_entityManager; }
 	Renderer* renderer() { return m_renderer; }
 
+	ScenePicker* sceneManager() { return m_sceneManager; }
+
 private:
 	RessourceManager* m_ressourceManager;
 	EntityManager* m_entityManager;
 	Renderer* m_renderer;
+
+	ScenePicker* m_sceneManager;
 };
 
 #endif //SCENE_H

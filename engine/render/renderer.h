@@ -19,6 +19,8 @@ public:
 
 private:
     Camera* m_camera;
+
+    void update_transform(Entity* entity);
 };
 
 #endif //RENDERER_H

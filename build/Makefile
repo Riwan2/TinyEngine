@@ -67,10 +67,10 @@ RM = /usr/local/Cellar/cmake/3.18.3/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/coefficriwan/Public/opengl/TinyEngine/build
+CMAKE_SOURCE_DIR = /Users/coefficriwan/Src/opengl/TinyEngine/build
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/coefficriwan/Public/opengl/TinyEngine/build
+CMAKE_BINARY_DIR = /Users/coefficriwan/Src/opengl/TinyEngine/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -145,9 +145,9 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/coefficriwan/Public/opengl/TinyEngine/build/CMakeFiles /Users/coefficriwan/Public/opengl/TinyEngine/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/coefficriwan/Src/opengl/TinyEngine/build/CMakeFiles /Users/coefficriwan/Src/opengl/TinyEngine/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/coefficriwan/Public/opengl/TinyEngine/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/coefficriwan/Src/opengl/TinyEngine/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -188,626 +188,680 @@ TinyEngine/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/build
 .PHONY : TinyEngine/fast
 
-Users/coefficriwan/Public/opengl/TinyEngine/engine/application/app.o: Users/coefficriwan/Public/opengl/TinyEngine/engine/application/app.cpp.o
+Users/coefficriwan/Src/opengl/TinyEngine/engine/application/app.o: Users/coefficriwan/Src/opengl/TinyEngine/engine/application/app.cpp.o
 
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/application/app.o
-
-# target to build an object file
-Users/coefficriwan/Public/opengl/TinyEngine/engine/application/app.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/application/app.cpp.o
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/application/app.cpp.o
-
-Users/coefficriwan/Public/opengl/TinyEngine/engine/application/app.i: Users/coefficriwan/Public/opengl/TinyEngine/engine/application/app.cpp.i
-
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/application/app.i
-
-# target to preprocess a source file
-Users/coefficriwan/Public/opengl/TinyEngine/engine/application/app.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/application/app.cpp.i
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/application/app.cpp.i
-
-Users/coefficriwan/Public/opengl/TinyEngine/engine/application/app.s: Users/coefficriwan/Public/opengl/TinyEngine/engine/application/app.cpp.s
-
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/application/app.s
-
-# target to generate assembly for a file
-Users/coefficriwan/Public/opengl/TinyEngine/engine/application/app.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/application/app.cpp.s
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/application/app.cpp.s
-
-Users/coefficriwan/Public/opengl/TinyEngine/engine/application/event.o: Users/coefficriwan/Public/opengl/TinyEngine/engine/application/event.cpp.o
-
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/application/event.o
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/application/app.o
 
 # target to build an object file
-Users/coefficriwan/Public/opengl/TinyEngine/engine/application/event.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/application/event.cpp.o
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/application/event.cpp.o
+Users/coefficriwan/Src/opengl/TinyEngine/engine/application/app.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/application/app.cpp.o
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/application/app.cpp.o
 
-Users/coefficriwan/Public/opengl/TinyEngine/engine/application/event.i: Users/coefficriwan/Public/opengl/TinyEngine/engine/application/event.cpp.i
+Users/coefficriwan/Src/opengl/TinyEngine/engine/application/app.i: Users/coefficriwan/Src/opengl/TinyEngine/engine/application/app.cpp.i
 
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/application/event.i
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/application/app.i
 
 # target to preprocess a source file
-Users/coefficriwan/Public/opengl/TinyEngine/engine/application/event.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/application/event.cpp.i
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/application/event.cpp.i
+Users/coefficriwan/Src/opengl/TinyEngine/engine/application/app.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/application/app.cpp.i
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/application/app.cpp.i
 
-Users/coefficriwan/Public/opengl/TinyEngine/engine/application/event.s: Users/coefficriwan/Public/opengl/TinyEngine/engine/application/event.cpp.s
+Users/coefficriwan/Src/opengl/TinyEngine/engine/application/app.s: Users/coefficriwan/Src/opengl/TinyEngine/engine/application/app.cpp.s
 
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/application/event.s
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/application/app.s
 
 # target to generate assembly for a file
-Users/coefficriwan/Public/opengl/TinyEngine/engine/application/event.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/application/event.cpp.s
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/application/event.cpp.s
+Users/coefficriwan/Src/opengl/TinyEngine/engine/application/app.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/application/app.cpp.s
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/application/app.cpp.s
 
-Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/app_util.o: Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/app_util.cpp.o
+Users/coefficriwan/Src/opengl/TinyEngine/engine/application/event.o: Users/coefficriwan/Src/opengl/TinyEngine/engine/application/event.cpp.o
 
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/app_util.o
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/application/event.o
 
 # target to build an object file
-Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/app_util.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/app_util.cpp.o
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/app_util.cpp.o
+Users/coefficriwan/Src/opengl/TinyEngine/engine/application/event.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/application/event.cpp.o
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/application/event.cpp.o
 
-Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/app_util.i: Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/app_util.cpp.i
+Users/coefficriwan/Src/opengl/TinyEngine/engine/application/event.i: Users/coefficriwan/Src/opengl/TinyEngine/engine/application/event.cpp.i
 
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/app_util.i
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/application/event.i
 
 # target to preprocess a source file
-Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/app_util.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/app_util.cpp.i
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/app_util.cpp.i
+Users/coefficriwan/Src/opengl/TinyEngine/engine/application/event.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/application/event.cpp.i
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/application/event.cpp.i
 
-Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/app_util.s: Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/app_util.cpp.s
+Users/coefficriwan/Src/opengl/TinyEngine/engine/application/event.s: Users/coefficriwan/Src/opengl/TinyEngine/engine/application/event.cpp.s
 
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/app_util.s
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/application/event.s
 
 # target to generate assembly for a file
-Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/app_util.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/app_util.cpp.s
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/app_util.cpp.s
+Users/coefficriwan/Src/opengl/TinyEngine/engine/application/event.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/application/event.cpp.s
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/application/event.cpp.s
 
-Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/time_profiler.o: Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/time_profiler.cpp.o
+Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/app_util.o: Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/app_util.cpp.o
 
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/time_profiler.o
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/app_util.o
 
 # target to build an object file
-Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/time_profiler.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/time_profiler.cpp.o
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/time_profiler.cpp.o
+Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/app_util.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/app_util.cpp.o
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/app_util.cpp.o
 
-Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/time_profiler.i: Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/time_profiler.cpp.i
+Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/app_util.i: Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/app_util.cpp.i
 
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/time_profiler.i
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/app_util.i
 
 # target to preprocess a source file
-Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/time_profiler.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/time_profiler.cpp.i
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/time_profiler.cpp.i
+Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/app_util.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/app_util.cpp.i
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/app_util.cpp.i
 
-Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/time_profiler.s: Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/time_profiler.cpp.s
+Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/app_util.s: Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/app_util.cpp.s
 
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/time_profiler.s
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/app_util.s
 
 # target to generate assembly for a file
-Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/time_profiler.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/time_profiler.cpp.s
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/time_profiler.cpp.s
+Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/app_util.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/app_util.cpp.s
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/app_util.cpp.s
 
-Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera.o: Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera.cpp.o
+Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/input.o: Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/input.cpp.o
 
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera.o
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/input.o
 
 # target to build an object file
-Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera.cpp.o
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera.cpp.o
+Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/input.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/input.cpp.o
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/input.cpp.o
 
-Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera.i: Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera.cpp.i
+Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/input.i: Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/input.cpp.i
 
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera.i
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/input.i
 
 # target to preprocess a source file
-Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera.cpp.i
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera.cpp.i
+Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/input.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/input.cpp.i
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/input.cpp.i
 
-Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera.s: Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera.cpp.s
+Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/input.s: Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/input.cpp.s
 
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera.s
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/input.s
 
 # target to generate assembly for a file
-Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera.cpp.s
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera.cpp.s
+Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/input.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/input.cpp.s
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/input.cpp.s
 
-Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_fps.o: Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_fps.cpp.o
+Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera.o: Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera.cpp.o
 
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_fps.o
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera.o
 
 # target to build an object file
-Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_fps.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_fps.cpp.o
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_fps.cpp.o
+Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera.cpp.o
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera.cpp.o
 
-Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_fps.i: Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_fps.cpp.i
+Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera.i: Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera.cpp.i
 
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_fps.i
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera.i
 
 # target to preprocess a source file
-Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_fps.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_fps.cpp.i
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_fps.cpp.i
+Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera.cpp.i
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera.cpp.i
 
-Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_fps.s: Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_fps.cpp.s
+Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera.s: Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera.cpp.s
 
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_fps.s
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera.s
 
 # target to generate assembly for a file
-Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_fps.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_fps.cpp.s
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_fps.cpp.s
+Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera.cpp.s
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera.cpp.s
 
-Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_tps.o: Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_tps.cpp.o
+Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_fps.o: Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_fps.cpp.o
 
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_tps.o
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_fps.o
 
 # target to build an object file
-Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_tps.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_tps.cpp.o
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_tps.cpp.o
+Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_fps.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_fps.cpp.o
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_fps.cpp.o
 
-Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_tps.i: Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_tps.cpp.i
+Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_fps.i: Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_fps.cpp.i
 
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_tps.i
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_fps.i
 
 # target to preprocess a source file
-Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_tps.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_tps.cpp.i
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_tps.cpp.i
+Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_fps.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_fps.cpp.i
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_fps.cpp.i
 
-Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_tps.s: Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_tps.cpp.s
+Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_fps.s: Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_fps.cpp.s
 
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_tps.s
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_fps.s
 
 # target to generate assembly for a file
-Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_tps.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_tps.cpp.s
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_tps.cpp.s
+Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_fps.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_fps.cpp.s
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_fps.cpp.s
 
-Users/coefficriwan/Public/opengl/TinyEngine/engine/gui/renderer_2d.o: Users/coefficriwan/Public/opengl/TinyEngine/engine/gui/renderer_2d.cpp.o
+Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_tps.o: Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_tps.cpp.o
 
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/gui/renderer_2d.o
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_tps.o
 
 # target to build an object file
-Users/coefficriwan/Public/opengl/TinyEngine/engine/gui/renderer_2d.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/gui/renderer_2d.cpp.o
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/gui/renderer_2d.cpp.o
+Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_tps.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_tps.cpp.o
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_tps.cpp.o
 
-Users/coefficriwan/Public/opengl/TinyEngine/engine/gui/renderer_2d.i: Users/coefficriwan/Public/opengl/TinyEngine/engine/gui/renderer_2d.cpp.i
+Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_tps.i: Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_tps.cpp.i
 
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/gui/renderer_2d.i
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_tps.i
 
 # target to preprocess a source file
-Users/coefficriwan/Public/opengl/TinyEngine/engine/gui/renderer_2d.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/gui/renderer_2d.cpp.i
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/gui/renderer_2d.cpp.i
+Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_tps.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_tps.cpp.i
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_tps.cpp.i
 
-Users/coefficriwan/Public/opengl/TinyEngine/engine/gui/renderer_2d.s: Users/coefficriwan/Public/opengl/TinyEngine/engine/gui/renderer_2d.cpp.s
+Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_tps.s: Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_tps.cpp.s
 
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/gui/renderer_2d.s
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_tps.s
 
 # target to generate assembly for a file
-Users/coefficriwan/Public/opengl/TinyEngine/engine/gui/renderer_2d.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/gui/renderer_2d.cpp.s
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/gui/renderer_2d.cpp.s
+Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_tps.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_tps.cpp.s
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_tps.cpp.s
 
-Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui.o: Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui.cpp.o
+Users/coefficriwan/Src/opengl/TinyEngine/engine/gui/renderer_2d.o: Users/coefficriwan/Src/opengl/TinyEngine/engine/gui/renderer_2d.cpp.o
 
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui.o
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/gui/renderer_2d.o
 
 # target to build an object file
-Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui.cpp.o
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui.cpp.o
+Users/coefficriwan/Src/opengl/TinyEngine/engine/gui/renderer_2d.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/gui/renderer_2d.cpp.o
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/gui/renderer_2d.cpp.o
 
-Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui.i: Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui.cpp.i
+Users/coefficriwan/Src/opengl/TinyEngine/engine/gui/renderer_2d.i: Users/coefficriwan/Src/opengl/TinyEngine/engine/gui/renderer_2d.cpp.i
 
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui.i
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/gui/renderer_2d.i
 
 # target to preprocess a source file
-Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui.cpp.i
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui.cpp.i
+Users/coefficriwan/Src/opengl/TinyEngine/engine/gui/renderer_2d.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/gui/renderer_2d.cpp.i
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/gui/renderer_2d.cpp.i
 
-Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui.s: Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui.cpp.s
+Users/coefficriwan/Src/opengl/TinyEngine/engine/gui/renderer_2d.s: Users/coefficriwan/Src/opengl/TinyEngine/engine/gui/renderer_2d.cpp.s
 
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui.s
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/gui/renderer_2d.s
 
 # target to generate assembly for a file
-Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui.cpp.s
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui.cpp.s
+Users/coefficriwan/Src/opengl/TinyEngine/engine/gui/renderer_2d.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/gui/renderer_2d.cpp.s
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/gui/renderer_2d.cpp.s
 
-Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_demo.o: Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_demo.cpp.o
+Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui.o: Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui.cpp.o
 
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_demo.o
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui.o
 
 # target to build an object file
-Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_demo.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_demo.cpp.o
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_demo.cpp.o
+Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui.cpp.o
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui.cpp.o
 
-Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_demo.i: Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_demo.cpp.i
+Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui.i: Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui.cpp.i
 
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_demo.i
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui.i
 
 # target to preprocess a source file
-Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_demo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_demo.cpp.i
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_demo.cpp.i
+Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui.cpp.i
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui.cpp.i
 
-Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_demo.s: Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_demo.cpp.s
+Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui.s: Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui.cpp.s
 
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_demo.s
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui.s
 
 # target to generate assembly for a file
-Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_demo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_demo.cpp.s
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_demo.cpp.s
+Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui.cpp.s
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui.cpp.s
 
-Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_draw.o: Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_draw.cpp.o
+Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_demo.o: Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_demo.cpp.o
 
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_draw.o
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_demo.o
 
 # target to build an object file
-Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_draw.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_draw.cpp.o
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_draw.cpp.o
+Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_demo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_demo.cpp.o
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_demo.cpp.o
 
-Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_draw.i: Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_draw.cpp.i
+Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_demo.i: Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_demo.cpp.i
 
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_draw.i
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_demo.i
 
 # target to preprocess a source file
-Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_draw.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_draw.cpp.i
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_draw.cpp.i
+Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_demo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_demo.cpp.i
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_demo.cpp.i
 
-Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_draw.s: Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_draw.cpp.s
+Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_demo.s: Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_demo.cpp.s
 
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_draw.s
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_demo.s
 
 # target to generate assembly for a file
-Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_draw.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_draw.cpp.s
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_draw.cpp.s
+Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_demo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_demo.cpp.s
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_demo.cpp.s
 
-Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.o: Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.cpp.o
+Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_draw.o: Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_draw.cpp.o
 
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.o
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_draw.o
 
 # target to build an object file
-Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.cpp.o
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.cpp.o
+Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_draw.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_draw.cpp.o
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_draw.cpp.o
 
-Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.i: Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.cpp.i
+Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_draw.i: Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_draw.cpp.i
 
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.i
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_draw.i
 
 # target to preprocess a source file
-Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.cpp.i
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.cpp.i
+Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_draw.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_draw.cpp.i
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_draw.cpp.i
 
-Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.s: Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.cpp.s
+Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_draw.s: Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_draw.cpp.s
 
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.s
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_draw.s
 
 # target to generate assembly for a file
-Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.cpp.s
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.cpp.s
+Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_draw.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_draw.cpp.s
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_draw.cpp.s
 
-Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.o: Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.cpp.o
+Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.o: Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.cpp.o
 
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.o
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.o
 
 # target to build an object file
-Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.cpp.o
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.cpp.o
+Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.cpp.o
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.cpp.o
 
-Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.i: Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.cpp.i
+Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.i: Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.cpp.i
 
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.i
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.i
 
 # target to preprocess a source file
-Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.cpp.i
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.cpp.i
+Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.cpp.i
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.cpp.i
 
-Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.s: Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.cpp.s
+Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.s: Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.cpp.s
 
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.s
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.s
 
 # target to generate assembly for a file
-Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.cpp.s
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.cpp.s
+Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.cpp.s
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.cpp.s
 
-Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_widgets.o: Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_widgets.cpp.o
+Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.o: Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.cpp.o
 
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_widgets.o
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.o
 
 # target to build an object file
-Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_widgets.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_widgets.cpp.o
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_widgets.cpp.o
+Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.cpp.o
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.cpp.o
 
-Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_widgets.i: Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_widgets.cpp.i
+Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.i: Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.cpp.i
 
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_widgets.i
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.i
 
 # target to preprocess a source file
-Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_widgets.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_widgets.cpp.i
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_widgets.cpp.i
+Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.cpp.i
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.cpp.i
 
-Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_widgets.s: Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_widgets.cpp.s
+Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.s: Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.cpp.s
 
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_widgets.s
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.s
 
 # target to generate assembly for a file
-Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_widgets.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_widgets.cpp.s
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_widgets.cpp.s
+Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.cpp.s
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.cpp.s
 
-Users/coefficriwan/Public/opengl/TinyEngine/engine/main.o: Users/coefficriwan/Public/opengl/TinyEngine/engine/main.cpp.o
+Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_widgets.o: Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_widgets.cpp.o
 
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/main.o
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_widgets.o
 
 # target to build an object file
-Users/coefficriwan/Public/opengl/TinyEngine/engine/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/main.cpp.o
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/main.cpp.o
+Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_widgets.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_widgets.cpp.o
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_widgets.cpp.o
 
-Users/coefficriwan/Public/opengl/TinyEngine/engine/main.i: Users/coefficriwan/Public/opengl/TinyEngine/engine/main.cpp.i
+Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_widgets.i: Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_widgets.cpp.i
 
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/main.i
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_widgets.i
 
 # target to preprocess a source file
-Users/coefficriwan/Public/opengl/TinyEngine/engine/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/main.cpp.i
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/main.cpp.i
+Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_widgets.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_widgets.cpp.i
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_widgets.cpp.i
 
-Users/coefficriwan/Public/opengl/TinyEngine/engine/main.s: Users/coefficriwan/Public/opengl/TinyEngine/engine/main.cpp.s
+Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_widgets.s: Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_widgets.cpp.s
 
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/main.s
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_widgets.s
 
 # target to generate assembly for a file
-Users/coefficriwan/Public/opengl/TinyEngine/engine/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/main.cpp.s
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/main.cpp.s
+Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_widgets.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_widgets.cpp.s
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_widgets.cpp.s
 
-Users/coefficriwan/Public/opengl/TinyEngine/engine/mesh/quad_2d.o: Users/coefficriwan/Public/opengl/TinyEngine/engine/mesh/quad_2d.cpp.o
+Users/coefficriwan/Src/opengl/TinyEngine/engine/main.o: Users/coefficriwan/Src/opengl/TinyEngine/engine/main.cpp.o
 
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/mesh/quad_2d.o
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/main.o
 
 # target to build an object file
-Users/coefficriwan/Public/opengl/TinyEngine/engine/mesh/quad_2d.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/mesh/quad_2d.cpp.o
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/mesh/quad_2d.cpp.o
+Users/coefficriwan/Src/opengl/TinyEngine/engine/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/main.cpp.o
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/main.cpp.o
 
-Users/coefficriwan/Public/opengl/TinyEngine/engine/mesh/quad_2d.i: Users/coefficriwan/Public/opengl/TinyEngine/engine/mesh/quad_2d.cpp.i
+Users/coefficriwan/Src/opengl/TinyEngine/engine/main.i: Users/coefficriwan/Src/opengl/TinyEngine/engine/main.cpp.i
 
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/mesh/quad_2d.i
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/main.i
 
 # target to preprocess a source file
-Users/coefficriwan/Public/opengl/TinyEngine/engine/mesh/quad_2d.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/mesh/quad_2d.cpp.i
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/mesh/quad_2d.cpp.i
+Users/coefficriwan/Src/opengl/TinyEngine/engine/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/main.cpp.i
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/main.cpp.i
 
-Users/coefficriwan/Public/opengl/TinyEngine/engine/mesh/quad_2d.s: Users/coefficriwan/Public/opengl/TinyEngine/engine/mesh/quad_2d.cpp.s
+Users/coefficriwan/Src/opengl/TinyEngine/engine/main.s: Users/coefficriwan/Src/opengl/TinyEngine/engine/main.cpp.s
 
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/mesh/quad_2d.s
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/main.s
 
 # target to generate assembly for a file
-Users/coefficriwan/Public/opengl/TinyEngine/engine/mesh/quad_2d.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/mesh/quad_2d.cpp.s
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/mesh/quad_2d.cpp.s
+Users/coefficriwan/Src/opengl/TinyEngine/engine/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/main.cpp.s
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/main.cpp.s
 
-Users/coefficriwan/Public/opengl/TinyEngine/engine/render/frame_buffer.o: Users/coefficriwan/Public/opengl/TinyEngine/engine/render/frame_buffer.cpp.o
+Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.o: Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o
 
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/render/frame_buffer.o
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.o
 
 # target to build an object file
-Users/coefficriwan/Public/opengl/TinyEngine/engine/render/frame_buffer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/render/frame_buffer.cpp.o
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/render/frame_buffer.cpp.o
+Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o
 
-Users/coefficriwan/Public/opengl/TinyEngine/engine/render/frame_buffer.i: Users/coefficriwan/Public/opengl/TinyEngine/engine/render/frame_buffer.cpp.i
+Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.i: Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.i
 
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/render/frame_buffer.i
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.i
 
 # target to preprocess a source file
-Users/coefficriwan/Public/opengl/TinyEngine/engine/render/frame_buffer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/render/frame_buffer.cpp.i
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/render/frame_buffer.cpp.i
+Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.i
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.i
 
-Users/coefficriwan/Public/opengl/TinyEngine/engine/render/frame_buffer.s: Users/coefficriwan/Public/opengl/TinyEngine/engine/render/frame_buffer.cpp.s
+Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.s: Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.s
 
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/render/frame_buffer.s
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.s
 
 # target to generate assembly for a file
-Users/coefficriwan/Public/opengl/TinyEngine/engine/render/frame_buffer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/render/frame_buffer.cpp.s
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/render/frame_buffer.cpp.s
+Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.s
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.s
 
-Users/coefficriwan/Public/opengl/TinyEngine/engine/render/renderer.o: Users/coefficriwan/Public/opengl/TinyEngine/engine/render/renderer.cpp.o
+Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/quad_2d.o: Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/quad_2d.cpp.o
 
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/render/renderer.o
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/quad_2d.o
 
 # target to build an object file
-Users/coefficriwan/Public/opengl/TinyEngine/engine/render/renderer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/render/renderer.cpp.o
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/render/renderer.cpp.o
+Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/quad_2d.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/quad_2d.cpp.o
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/quad_2d.cpp.o
 
-Users/coefficriwan/Public/opengl/TinyEngine/engine/render/renderer.i: Users/coefficriwan/Public/opengl/TinyEngine/engine/render/renderer.cpp.i
+Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/quad_2d.i: Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/quad_2d.cpp.i
 
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/render/renderer.i
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/quad_2d.i
 
 # target to preprocess a source file
-Users/coefficriwan/Public/opengl/TinyEngine/engine/render/renderer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/render/renderer.cpp.i
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/render/renderer.cpp.i
+Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/quad_2d.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/quad_2d.cpp.i
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/quad_2d.cpp.i
 
-Users/coefficriwan/Public/opengl/TinyEngine/engine/render/renderer.s: Users/coefficriwan/Public/opengl/TinyEngine/engine/render/renderer.cpp.s
+Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/quad_2d.s: Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/quad_2d.cpp.s
 
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/render/renderer.s
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/quad_2d.s
 
 # target to generate assembly for a file
-Users/coefficriwan/Public/opengl/TinyEngine/engine/render/renderer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/render/renderer.cpp.s
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/render/renderer.cpp.s
+Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/quad_2d.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/quad_2d.cpp.s
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/quad_2d.cpp.s
 
-Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/mesh.o: Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/mesh.cpp.o
+Users/coefficriwan/Src/opengl/TinyEngine/engine/render/frame_buffer.o: Users/coefficriwan/Src/opengl/TinyEngine/engine/render/frame_buffer.cpp.o
 
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/mesh.o
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/render/frame_buffer.o
 
 # target to build an object file
-Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/mesh.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/mesh.cpp.o
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/mesh.cpp.o
+Users/coefficriwan/Src/opengl/TinyEngine/engine/render/frame_buffer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/render/frame_buffer.cpp.o
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/render/frame_buffer.cpp.o
 
-Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/mesh.i: Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/mesh.cpp.i
+Users/coefficriwan/Src/opengl/TinyEngine/engine/render/frame_buffer.i: Users/coefficriwan/Src/opengl/TinyEngine/engine/render/frame_buffer.cpp.i
 
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/mesh.i
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/render/frame_buffer.i
 
 # target to preprocess a source file
-Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/mesh.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/mesh.cpp.i
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/mesh.cpp.i
+Users/coefficriwan/Src/opengl/TinyEngine/engine/render/frame_buffer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/render/frame_buffer.cpp.i
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/render/frame_buffer.cpp.i
 
-Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/mesh.s: Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/mesh.cpp.s
+Users/coefficriwan/Src/opengl/TinyEngine/engine/render/frame_buffer.s: Users/coefficriwan/Src/opengl/TinyEngine/engine/render/frame_buffer.cpp.s
 
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/mesh.s
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/render/frame_buffer.s
 
 # target to generate assembly for a file
-Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/mesh.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/mesh.cpp.s
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/mesh.cpp.s
+Users/coefficriwan/Src/opengl/TinyEngine/engine/render/frame_buffer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/render/frame_buffer.cpp.s
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/render/frame_buffer.cpp.s
 
-Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/ressource_manager.o: Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/ressource_manager.cpp.o
+Users/coefficriwan/Src/opengl/TinyEngine/engine/render/renderer.o: Users/coefficriwan/Src/opengl/TinyEngine/engine/render/renderer.cpp.o
 
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/ressource_manager.o
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/render/renderer.o
 
 # target to build an object file
-Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/ressource_manager.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/ressource_manager.cpp.o
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/ressource_manager.cpp.o
+Users/coefficriwan/Src/opengl/TinyEngine/engine/render/renderer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/render/renderer.cpp.o
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/render/renderer.cpp.o
 
-Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/ressource_manager.i: Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/ressource_manager.cpp.i
+Users/coefficriwan/Src/opengl/TinyEngine/engine/render/renderer.i: Users/coefficriwan/Src/opengl/TinyEngine/engine/render/renderer.cpp.i
 
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/ressource_manager.i
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/render/renderer.i
 
 # target to preprocess a source file
-Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/ressource_manager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/ressource_manager.cpp.i
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/ressource_manager.cpp.i
+Users/coefficriwan/Src/opengl/TinyEngine/engine/render/renderer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/render/renderer.cpp.i
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/render/renderer.cpp.i
 
-Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/ressource_manager.s: Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/ressource_manager.cpp.s
+Users/coefficriwan/Src/opengl/TinyEngine/engine/render/renderer.s: Users/coefficriwan/Src/opengl/TinyEngine/engine/render/renderer.cpp.s
 
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/ressource_manager.s
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/render/renderer.s
 
 # target to generate assembly for a file
-Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/ressource_manager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/ressource_manager.cpp.s
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/ressource_manager.cpp.s
+Users/coefficriwan/Src/opengl/TinyEngine/engine/render/renderer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/render/renderer.cpp.s
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/render/renderer.cpp.s
 
-Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/shader.o: Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/shader.cpp.o
+Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.o: Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o
 
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/shader.o
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.o
 
 # target to build an object file
-Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/shader.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/shader.cpp.o
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/shader.cpp.o
+Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o
 
-Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/shader.i: Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/shader.cpp.i
+Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.i: Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.i
 
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/shader.i
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.i
 
 # target to preprocess a source file
-Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/shader.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/shader.cpp.i
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/shader.cpp.i
+Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.i
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.i
 
-Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/shader.s: Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/shader.cpp.s
+Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.s: Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.s
 
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/shader.s
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.s
 
 # target to generate assembly for a file
-Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/shader.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/shader.cpp.s
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/shader.cpp.s
+Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.s
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.s
 
-Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/texture.o: Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/texture.cpp.o
+Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/ressource_manager.o: Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/ressource_manager.cpp.o
 
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/texture.o
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/ressource_manager.o
 
 # target to build an object file
-Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/texture.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/texture.cpp.o
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/texture.cpp.o
+Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/ressource_manager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/ressource_manager.cpp.o
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/ressource_manager.cpp.o
 
-Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/texture.i: Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/texture.cpp.i
+Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/ressource_manager.i: Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/ressource_manager.cpp.i
 
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/texture.i
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/ressource_manager.i
 
 # target to preprocess a source file
-Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/texture.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/texture.cpp.i
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/texture.cpp.i
+Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/ressource_manager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/ressource_manager.cpp.i
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/ressource_manager.cpp.i
 
-Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/texture.s: Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/texture.cpp.s
+Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/ressource_manager.s: Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/ressource_manager.cpp.s
 
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/texture.s
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/ressource_manager.s
 
 # target to generate assembly for a file
-Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/texture.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/texture.cpp.s
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/texture.cpp.s
+Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/ressource_manager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/ressource_manager.cpp.s
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/ressource_manager.cpp.s
 
-Users/coefficriwan/Public/opengl/TinyEngine/engine/scene/basic_scene.o: Users/coefficriwan/Public/opengl/TinyEngine/engine/scene/basic_scene.cpp.o
+Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/shader.o: Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/shader.cpp.o
 
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/scene/basic_scene.o
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/shader.o
 
 # target to build an object file
-Users/coefficriwan/Public/opengl/TinyEngine/engine/scene/basic_scene.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/scene/basic_scene.cpp.o
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/scene/basic_scene.cpp.o
+Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/shader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/shader.cpp.o
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/shader.cpp.o
 
-Users/coefficriwan/Public/opengl/TinyEngine/engine/scene/basic_scene.i: Users/coefficriwan/Public/opengl/TinyEngine/engine/scene/basic_scene.cpp.i
+Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/shader.i: Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/shader.cpp.i
 
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/scene/basic_scene.i
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/shader.i
 
 # target to preprocess a source file
-Users/coefficriwan/Public/opengl/TinyEngine/engine/scene/basic_scene.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/scene/basic_scene.cpp.i
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/scene/basic_scene.cpp.i
+Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/shader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/shader.cpp.i
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/shader.cpp.i
 
-Users/coefficriwan/Public/opengl/TinyEngine/engine/scene/basic_scene.s: Users/coefficriwan/Public/opengl/TinyEngine/engine/scene/basic_scene.cpp.s
+Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/shader.s: Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/shader.cpp.s
 
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/scene/basic_scene.s
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/shader.s
 
 # target to generate assembly for a file
-Users/coefficriwan/Public/opengl/TinyEngine/engine/scene/basic_scene.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/scene/basic_scene.cpp.s
-.PHONY : Users/coefficriwan/Public/opengl/TinyEngine/engine/scene/basic_scene.cpp.s
+Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/shader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/shader.cpp.s
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/shader.cpp.s
+
+Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/texture.o: Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/texture.cpp.o
+
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/texture.o
+
+# target to build an object file
+Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/texture.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/texture.cpp.o
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/texture.cpp.o
+
+Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/texture.i: Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/texture.cpp.i
+
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/texture.i
+
+# target to preprocess a source file
+Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/texture.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/texture.cpp.i
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/texture.cpp.i
+
+Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/texture.s: Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/texture.cpp.s
+
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/texture.s
+
+# target to generate assembly for a file
+Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/texture.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/texture.cpp.s
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/texture.cpp.s
+
+Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/basic_scene.o: Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/basic_scene.cpp.o
+
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/basic_scene.o
+
+# target to build an object file
+Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/basic_scene.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/basic_scene.cpp.o
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/basic_scene.cpp.o
+
+Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/basic_scene.i: Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/basic_scene.cpp.i
+
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/basic_scene.i
+
+# target to preprocess a source file
+Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/basic_scene.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/basic_scene.cpp.i
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/basic_scene.cpp.i
+
+Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/basic_scene.s: Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/basic_scene.cpp.s
+
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/basic_scene.s
+
+# target to generate assembly for a file
+Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/basic_scene.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/basic_scene.cpp.s
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/basic_scene.cpp.s
+
+Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/menu_scene.o: Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/menu_scene.cpp.o
+
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/menu_scene.o
+
+# target to build an object file
+Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/menu_scene.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/menu_scene.cpp.o
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/menu_scene.cpp.o
+
+Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/menu_scene.i: Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/menu_scene.cpp.i
+
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/menu_scene.i
+
+# target to preprocess a source file
+Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/menu_scene.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/menu_scene.cpp.i
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/menu_scene.cpp.i
+
+Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/menu_scene.s: Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/menu_scene.cpp.s
+
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/menu_scene.s
+
+# target to generate assembly for a file
+Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/menu_scene.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TinyEngine.dir/build.make CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/menu_scene.cpp.s
+.PHONY : Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/menu_scene.cpp.s
 
 # Help Target
 help:
@@ -822,75 +876,81 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... TinyEngine"
-	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/application/app.o"
-	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/application/app.i"
-	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/application/app.s"
-	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/application/event.o"
-	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/application/event.i"
-	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/application/event.s"
-	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/app_util.o"
-	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/app_util.i"
-	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/app_util.s"
-	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/time_profiler.o"
-	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/time_profiler.i"
-	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/time_profiler.s"
-	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera.o"
-	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera.i"
-	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera.s"
-	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_fps.o"
-	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_fps.i"
-	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_fps.s"
-	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_tps.o"
-	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_tps.i"
-	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_tps.s"
-	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/gui/renderer_2d.o"
-	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/gui/renderer_2d.i"
-	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/gui/renderer_2d.s"
-	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui.o"
-	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui.i"
-	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui.s"
-	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_demo.o"
-	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_demo.i"
-	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_demo.s"
-	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_draw.o"
-	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_draw.i"
-	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_draw.s"
-	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.o"
-	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.i"
-	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.s"
-	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.o"
-	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.i"
-	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.s"
-	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_widgets.o"
-	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_widgets.i"
-	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_widgets.s"
-	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/main.o"
-	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/main.i"
-	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/main.s"
-	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/mesh/quad_2d.o"
-	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/mesh/quad_2d.i"
-	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/mesh/quad_2d.s"
-	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/render/frame_buffer.o"
-	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/render/frame_buffer.i"
-	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/render/frame_buffer.s"
-	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/render/renderer.o"
-	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/render/renderer.i"
-	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/render/renderer.s"
-	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/mesh.o"
-	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/mesh.i"
-	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/mesh.s"
-	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/ressource_manager.o"
-	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/ressource_manager.i"
-	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/ressource_manager.s"
-	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/shader.o"
-	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/shader.i"
-	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/shader.s"
-	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/texture.o"
-	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/texture.i"
-	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/texture.s"
-	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/scene/basic_scene.o"
-	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/scene/basic_scene.i"
-	@echo "... Users/coefficriwan/Public/opengl/TinyEngine/engine/scene/basic_scene.s"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/application/app.o"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/application/app.i"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/application/app.s"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/application/event.o"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/application/event.i"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/application/event.s"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/app_util.o"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/app_util.i"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/app_util.s"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/input.o"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/input.i"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/input.s"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera.o"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera.i"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera.s"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_fps.o"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_fps.i"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_fps.s"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_tps.o"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_tps.i"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_tps.s"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/gui/renderer_2d.o"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/gui/renderer_2d.i"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/gui/renderer_2d.s"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui.o"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui.i"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui.s"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_demo.o"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_demo.i"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_demo.s"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_draw.o"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_draw.i"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_draw.s"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.o"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.i"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.s"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.o"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.i"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.s"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_widgets.o"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_widgets.i"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_widgets.s"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/main.o"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/main.i"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/main.s"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.o"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.i"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.s"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/quad_2d.o"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/quad_2d.i"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/quad_2d.s"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/render/frame_buffer.o"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/render/frame_buffer.i"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/render/frame_buffer.s"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/render/renderer.o"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/render/renderer.i"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/render/renderer.s"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.o"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.i"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.s"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/ressource_manager.o"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/ressource_manager.i"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/ressource_manager.s"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/shader.o"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/shader.i"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/shader.s"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/texture.o"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/texture.i"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/texture.s"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/basic_scene.o"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/basic_scene.i"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/basic_scene.s"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/menu_scene.o"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/menu_scene.i"
+	@echo "... Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/menu_scene.s"
 .PHONY : help
 
 

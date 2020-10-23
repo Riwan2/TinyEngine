@@ -13,7 +13,7 @@ Mesh::~Mesh()
 void Mesh::render()
 {
 	glBindVertexArray(m_vao);
-	glDrawElements(GL_TRIANGLES, m_numIndices, GL_UNSIGNED_INT, 0);
+	glDrawElements(GL_TRIANGLES, m_numTriangleIndices * 3, GL_UNSIGNED_INT, 0);
 	glBindVertexArray(0);
 }
 
@@ -24,13 +24,13 @@ void Mesh::render()
 void Mesh::load(const std::string&& filename, bool info)
 {
 	load_from_file(("../ressource/mesh/" + filename).c_str(), info);
-	setup_mesh(m_vertices, m_numVertices, m_indices, m_numIndices);
+	setup_mesh(m_vertices, m_numVertices, m_indices, m_numTriangleIndices);
 
 	delete[] m_vertices;
 	delete[] m_indices;
 }
 
-void Mesh::init(Vertex* vertices, int numVertices, GLuint* indices, int numIndices)
+void Mesh::init(Vertex* vertices, int numVertices, TriangleIndex* indices, int numIndices)
 {
 	setup_mesh(vertices, numVertices, indices, numIndices);
 }
@@ -39,8 +39,11 @@ void Mesh::init(Vertex* vertices, int numVertices, GLuint* indices, int numIndic
 	setup opengl mesh
 */
 
-void Mesh::setup_mesh(Vertex* vertices, int numVertices, GLuint* indices, int numIndices)
+void Mesh::setup_mesh(Vertex* vertices, int numVertices, TriangleIndex* triangleIndices, int numTriangleIndices)
 {
+	m_numVertices = numVertices;
+	m_numTriangleIndices = numTriangleIndices;
+
 	glGenVertexArrays(1, &m_vao);
 	glGenBuffers(1, &m_vbo);
 	glGenBuffers(1, &m_ebo);
@@ -51,7 +54,7 @@ void Mesh::setup_mesh(Vertex* vertices, int numVertices, GLuint* indices, int nu
 	glBufferData(GL_ARRAY_BUFFER, numVertices * sizeof(Vertex), vertices, GL_STATIC_DRAW);
 
 	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, m_ebo);
-	glBufferData(GL_ELEMENT_ARRAY_BUFFER, numIndices * sizeof(GLuint), indices, GL_STATIC_DRAW);
+	glBufferData(GL_ELEMENT_ARRAY_BUFFER, numTriangleIndices * sizeof(TriangleIndex), triangleIndices, GL_STATIC_DRAW);
 
 	//position
 	glEnableVertexAttribArray(0);
@@ -59,11 +62,11 @@ void Mesh::setup_mesh(Vertex* vertices, int numVertices, GLuint* indices, int nu
 
 	//normal
 	glEnableVertexAttribArray(1);
-	glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, sizeof(Vertex), (void*)(sizeof(glm::vec3)));
+	glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, sizeof(Vertex), (void*)(sizeof(Vertex::position)));
 
 	//texture coordinate
 	glEnableVertexAttribArray(2);
-	glVertexAttribPointer(2, 2, GL_FLOAT, GL_FALSE, sizeof(Vertex), (void*)(2 * sizeof(glm::vec3)));
+	glVertexAttribPointer(2, 2, GL_FLOAT, GL_FALSE, sizeof(Vertex), (void*)(sizeof(Vertex::position) + sizeof(Vertex::normal)));
 
 	glBindVertexArray(0);
 
@@ -181,10 +184,14 @@ void Mesh::load_from_file(const char* filename, bool info)
 			throw std::runtime_error(std::string("error: invalid line format ") + debug_filename);
 		}
 	}
-
-	m_numIndices = list_indices.size();
-	m_indices = new GLuint[m_numIndices];
-	for (int i = 0; i < m_numIndices; i++) {
-		m_indices[i] = list_indices[i];
+	
+	//3 is the number of indices in a triangle
+	m_numTriangleIndices = list_indices.size() / 3;
+	m_indices = new TriangleIndex[m_numTriangleIndices];
+	for (int i = 0; i < m_numTriangleIndices; i++) {
+		int index = i * 3;
+		m_indices[i].index1 = list_indices[index];
+		m_indices[i].index2 = list_indices[++index];
+		m_indices[i].index3 = list_indices[++index];
 	}
 }

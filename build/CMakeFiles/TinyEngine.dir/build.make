@@ -62,10 +62,10 @@ RM = /usr/local/Cellar/cmake/3.18.3/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/coefficriwan/Public/opengl/TinyEngine/build
+CMAKE_SOURCE_DIR = /Users/coefficriwan/Src/opengl/TinyEngine/build
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/coefficriwan/Public/opengl/TinyEngine/build
+CMAKE_BINARY_DIR = /Users/coefficriwan/Src/opengl/TinyEngine/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/TinyEngine.dir/depend.make
@@ -76,361 +76,391 @@ include CMakeFiles/TinyEngine.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/TinyEngine.dir/flags.make
 
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/application/app.cpp.o: CMakeFiles/TinyEngine.dir/flags.make
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/application/app.cpp.o: /Users/coefficriwan/Public/opengl/TinyEngine/engine/application/app.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/coefficriwan/Public/opengl/TinyEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/application/app.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/application/app.cpp.o -c /Users/coefficriwan/Public/opengl/TinyEngine/engine/application/app.cpp
-
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/application/app.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/application/app.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/coefficriwan/Public/opengl/TinyEngine/engine/application/app.cpp > CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/application/app.cpp.i
-
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/application/app.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/application/app.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/coefficriwan/Public/opengl/TinyEngine/engine/application/app.cpp -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/application/app.cpp.s
-
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/application/event.cpp.o: CMakeFiles/TinyEngine.dir/flags.make
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/application/event.cpp.o: /Users/coefficriwan/Public/opengl/TinyEngine/engine/application/event.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/coefficriwan/Public/opengl/TinyEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/application/event.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/application/event.cpp.o -c /Users/coefficriwan/Public/opengl/TinyEngine/engine/application/event.cpp
-
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/application/event.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/application/event.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/coefficriwan/Public/opengl/TinyEngine/engine/application/event.cpp > CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/application/event.cpp.i
-
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/application/event.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/application/event.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/coefficriwan/Public/opengl/TinyEngine/engine/application/event.cpp -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/application/event.cpp.s
-
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/app_util.cpp.o: CMakeFiles/TinyEngine.dir/flags.make
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/app_util.cpp.o: /Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/app_util.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/coefficriwan/Public/opengl/TinyEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/app_util.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/app_util.cpp.o -c /Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/app_util.cpp
-
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/app_util.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/app_util.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/app_util.cpp > CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/app_util.cpp.i
-
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/app_util.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/app_util.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/app_util.cpp -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/app_util.cpp.s
-
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/time_profiler.cpp.o: CMakeFiles/TinyEngine.dir/flags.make
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/time_profiler.cpp.o: /Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/time_profiler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/coefficriwan/Public/opengl/TinyEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/time_profiler.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/time_profiler.cpp.o -c /Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/time_profiler.cpp
-
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/time_profiler.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/time_profiler.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/time_profiler.cpp > CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/time_profiler.cpp.i
-
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/time_profiler.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/time_profiler.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/time_profiler.cpp -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/time_profiler.cpp.s
-
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera.cpp.o: CMakeFiles/TinyEngine.dir/flags.make
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera.cpp.o: /Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/coefficriwan/Public/opengl/TinyEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera.cpp.o -c /Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera.cpp
-
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera.cpp > CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera.cpp.i
-
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera.cpp -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera.cpp.s
-
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_fps.cpp.o: CMakeFiles/TinyEngine.dir/flags.make
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_fps.cpp.o: /Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_fps.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/coefficriwan/Public/opengl/TinyEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_fps.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_fps.cpp.o -c /Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_fps.cpp
-
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_fps.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_fps.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_fps.cpp > CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_fps.cpp.i
-
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_fps.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_fps.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_fps.cpp -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_fps.cpp.s
-
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_tps.cpp.o: CMakeFiles/TinyEngine.dir/flags.make
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_tps.cpp.o: /Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_tps.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/coefficriwan/Public/opengl/TinyEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_tps.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_tps.cpp.o -c /Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_tps.cpp
-
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_tps.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_tps.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_tps.cpp > CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_tps.cpp.i
-
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_tps.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_tps.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_tps.cpp -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_tps.cpp.s
-
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/gui/renderer_2d.cpp.o: CMakeFiles/TinyEngine.dir/flags.make
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/gui/renderer_2d.cpp.o: /Users/coefficriwan/Public/opengl/TinyEngine/engine/gui/renderer_2d.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/coefficriwan/Public/opengl/TinyEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/gui/renderer_2d.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/gui/renderer_2d.cpp.o -c /Users/coefficriwan/Public/opengl/TinyEngine/engine/gui/renderer_2d.cpp
-
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/gui/renderer_2d.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/gui/renderer_2d.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/coefficriwan/Public/opengl/TinyEngine/engine/gui/renderer_2d.cpp > CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/gui/renderer_2d.cpp.i
-
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/gui/renderer_2d.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/gui/renderer_2d.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/coefficriwan/Public/opengl/TinyEngine/engine/gui/renderer_2d.cpp -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/gui/renderer_2d.cpp.s
-
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui.cpp.o: CMakeFiles/TinyEngine.dir/flags.make
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui.cpp.o: /Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/coefficriwan/Public/opengl/TinyEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui.cpp.o -c /Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui.cpp
-
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui.cpp > CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui.cpp.i
-
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui.cpp -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui.cpp.s
-
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_demo.cpp.o: CMakeFiles/TinyEngine.dir/flags.make
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_demo.cpp.o: /Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_demo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/coefficriwan/Public/opengl/TinyEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_demo.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_demo.cpp.o -c /Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_demo.cpp
-
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_demo.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_demo.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_demo.cpp > CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_demo.cpp.i
-
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_demo.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_demo.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_demo.cpp -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_demo.cpp.s
-
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_draw.cpp.o: CMakeFiles/TinyEngine.dir/flags.make
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_draw.cpp.o: /Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_draw.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/coefficriwan/Public/opengl/TinyEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_draw.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_draw.cpp.o -c /Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_draw.cpp
-
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_draw.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_draw.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_draw.cpp > CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_draw.cpp.i
-
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_draw.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_draw.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_draw.cpp -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_draw.cpp.s
-
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.cpp.o: CMakeFiles/TinyEngine.dir/flags.make
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.cpp.o: /Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/coefficriwan/Public/opengl/TinyEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.cpp.o -c /Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.cpp
-
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.cpp > CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.cpp.i
-
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.cpp -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.cpp.s
-
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.cpp.o: CMakeFiles/TinyEngine.dir/flags.make
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.cpp.o: /Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/coefficriwan/Public/opengl/TinyEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.cpp.o -c /Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.cpp
-
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.cpp > CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.cpp.i
-
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.cpp -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.cpp.s
-
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_widgets.cpp.o: CMakeFiles/TinyEngine.dir/flags.make
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_widgets.cpp.o: /Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_widgets.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/coefficriwan/Public/opengl/TinyEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_widgets.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_widgets.cpp.o -c /Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_widgets.cpp
-
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_widgets.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_widgets.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_widgets.cpp > CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_widgets.cpp.i
-
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_widgets.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_widgets.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_widgets.cpp -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_widgets.cpp.s
-
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/main.cpp.o: CMakeFiles/TinyEngine.dir/flags.make
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/main.cpp.o: /Users/coefficriwan/Public/opengl/TinyEngine/engine/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/coefficriwan/Public/opengl/TinyEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/main.cpp.o -c /Users/coefficriwan/Public/opengl/TinyEngine/engine/main.cpp
-
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/coefficriwan/Public/opengl/TinyEngine/engine/main.cpp > CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/main.cpp.i
-
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/coefficriwan/Public/opengl/TinyEngine/engine/main.cpp -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/main.cpp.s
-
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/mesh/quad_2d.cpp.o: CMakeFiles/TinyEngine.dir/flags.make
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/mesh/quad_2d.cpp.o: /Users/coefficriwan/Public/opengl/TinyEngine/engine/mesh/quad_2d.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/coefficriwan/Public/opengl/TinyEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/mesh/quad_2d.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/mesh/quad_2d.cpp.o -c /Users/coefficriwan/Public/opengl/TinyEngine/engine/mesh/quad_2d.cpp
-
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/mesh/quad_2d.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/mesh/quad_2d.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/coefficriwan/Public/opengl/TinyEngine/engine/mesh/quad_2d.cpp > CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/mesh/quad_2d.cpp.i
-
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/mesh/quad_2d.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/mesh/quad_2d.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/coefficriwan/Public/opengl/TinyEngine/engine/mesh/quad_2d.cpp -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/mesh/quad_2d.cpp.s
-
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/render/frame_buffer.cpp.o: CMakeFiles/TinyEngine.dir/flags.make
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/render/frame_buffer.cpp.o: /Users/coefficriwan/Public/opengl/TinyEngine/engine/render/frame_buffer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/coefficriwan/Public/opengl/TinyEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/render/frame_buffer.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/render/frame_buffer.cpp.o -c /Users/coefficriwan/Public/opengl/TinyEngine/engine/render/frame_buffer.cpp
-
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/render/frame_buffer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/render/frame_buffer.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/coefficriwan/Public/opengl/TinyEngine/engine/render/frame_buffer.cpp > CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/render/frame_buffer.cpp.i
-
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/render/frame_buffer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/render/frame_buffer.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/coefficriwan/Public/opengl/TinyEngine/engine/render/frame_buffer.cpp -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/render/frame_buffer.cpp.s
-
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/render/renderer.cpp.o: CMakeFiles/TinyEngine.dir/flags.make
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/render/renderer.cpp.o: /Users/coefficriwan/Public/opengl/TinyEngine/engine/render/renderer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/coefficriwan/Public/opengl/TinyEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/render/renderer.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/render/renderer.cpp.o -c /Users/coefficriwan/Public/opengl/TinyEngine/engine/render/renderer.cpp
-
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/render/renderer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/render/renderer.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/coefficriwan/Public/opengl/TinyEngine/engine/render/renderer.cpp > CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/render/renderer.cpp.i
-
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/render/renderer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/render/renderer.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/coefficriwan/Public/opengl/TinyEngine/engine/render/renderer.cpp -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/render/renderer.cpp.s
-
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/mesh.cpp.o: CMakeFiles/TinyEngine.dir/flags.make
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/mesh.cpp.o: /Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/mesh.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/coefficriwan/Public/opengl/TinyEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/mesh.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/mesh.cpp.o -c /Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/mesh.cpp
-
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/mesh.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/mesh.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/mesh.cpp > CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/mesh.cpp.i
-
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/mesh.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/mesh.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/mesh.cpp -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/mesh.cpp.s
-
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/ressource_manager.cpp.o: CMakeFiles/TinyEngine.dir/flags.make
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/ressource_manager.cpp.o: /Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/ressource_manager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/coefficriwan/Public/opengl/TinyEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/ressource_manager.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/ressource_manager.cpp.o -c /Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/ressource_manager.cpp
-
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/ressource_manager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/ressource_manager.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/ressource_manager.cpp > CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/ressource_manager.cpp.i
-
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/ressource_manager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/ressource_manager.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/ressource_manager.cpp -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/ressource_manager.cpp.s
-
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/shader.cpp.o: CMakeFiles/TinyEngine.dir/flags.make
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/shader.cpp.o: /Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/shader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/coefficriwan/Public/opengl/TinyEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/shader.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/shader.cpp.o -c /Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/shader.cpp
-
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/shader.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/shader.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/shader.cpp > CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/shader.cpp.i
-
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/shader.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/shader.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/shader.cpp -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/shader.cpp.s
-
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/texture.cpp.o: CMakeFiles/TinyEngine.dir/flags.make
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/texture.cpp.o: /Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/texture.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/coefficriwan/Public/opengl/TinyEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/texture.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/texture.cpp.o -c /Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/texture.cpp
-
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/texture.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/texture.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/texture.cpp > CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/texture.cpp.i
-
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/texture.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/texture.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/texture.cpp -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/texture.cpp.s
-
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/scene/basic_scene.cpp.o: CMakeFiles/TinyEngine.dir/flags.make
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/scene/basic_scene.cpp.o: /Users/coefficriwan/Public/opengl/TinyEngine/engine/scene/basic_scene.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/coefficriwan/Public/opengl/TinyEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/scene/basic_scene.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/scene/basic_scene.cpp.o -c /Users/coefficriwan/Public/opengl/TinyEngine/engine/scene/basic_scene.cpp
-
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/scene/basic_scene.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/scene/basic_scene.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/coefficriwan/Public/opengl/TinyEngine/engine/scene/basic_scene.cpp > CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/scene/basic_scene.cpp.i
-
-CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/scene/basic_scene.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/scene/basic_scene.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/coefficriwan/Public/opengl/TinyEngine/engine/scene/basic_scene.cpp -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/scene/basic_scene.cpp.s
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/application/app.cpp.o: CMakeFiles/TinyEngine.dir/flags.make
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/application/app.cpp.o: /Users/coefficriwan/Src/opengl/TinyEngine/engine/application/app.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/coefficriwan/Src/opengl/TinyEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/application/app.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/application/app.cpp.o -c /Users/coefficriwan/Src/opengl/TinyEngine/engine/application/app.cpp
+
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/application/app.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/application/app.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/coefficriwan/Src/opengl/TinyEngine/engine/application/app.cpp > CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/application/app.cpp.i
+
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/application/app.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/application/app.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/coefficriwan/Src/opengl/TinyEngine/engine/application/app.cpp -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/application/app.cpp.s
+
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/application/event.cpp.o: CMakeFiles/TinyEngine.dir/flags.make
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/application/event.cpp.o: /Users/coefficriwan/Src/opengl/TinyEngine/engine/application/event.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/coefficriwan/Src/opengl/TinyEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/application/event.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/application/event.cpp.o -c /Users/coefficriwan/Src/opengl/TinyEngine/engine/application/event.cpp
+
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/application/event.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/application/event.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/coefficriwan/Src/opengl/TinyEngine/engine/application/event.cpp > CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/application/event.cpp.i
+
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/application/event.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/application/event.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/coefficriwan/Src/opengl/TinyEngine/engine/application/event.cpp -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/application/event.cpp.s
+
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/app_util.cpp.o: CMakeFiles/TinyEngine.dir/flags.make
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/app_util.cpp.o: /Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/app_util.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/coefficriwan/Src/opengl/TinyEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/app_util.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/app_util.cpp.o -c /Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/app_util.cpp
+
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/app_util.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/app_util.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/app_util.cpp > CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/app_util.cpp.i
+
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/app_util.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/app_util.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/app_util.cpp -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/app_util.cpp.s
+
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/input.cpp.o: CMakeFiles/TinyEngine.dir/flags.make
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/input.cpp.o: /Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/input.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/coefficriwan/Src/opengl/TinyEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/input.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/input.cpp.o -c /Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/input.cpp
+
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/input.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/input.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/input.cpp > CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/input.cpp.i
+
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/input.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/input.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/input.cpp -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/input.cpp.s
+
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera.cpp.o: CMakeFiles/TinyEngine.dir/flags.make
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera.cpp.o: /Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/coefficriwan/Src/opengl/TinyEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera.cpp.o -c /Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera.cpp
+
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera.cpp > CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera.cpp.i
+
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera.cpp -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera.cpp.s
+
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_fps.cpp.o: CMakeFiles/TinyEngine.dir/flags.make
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_fps.cpp.o: /Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_fps.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/coefficriwan/Src/opengl/TinyEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_fps.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_fps.cpp.o -c /Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_fps.cpp
+
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_fps.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_fps.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_fps.cpp > CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_fps.cpp.i
+
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_fps.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_fps.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_fps.cpp -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_fps.cpp.s
+
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_tps.cpp.o: CMakeFiles/TinyEngine.dir/flags.make
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_tps.cpp.o: /Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_tps.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/coefficriwan/Src/opengl/TinyEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_tps.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_tps.cpp.o -c /Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_tps.cpp
+
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_tps.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_tps.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_tps.cpp > CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_tps.cpp.i
+
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_tps.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_tps.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_tps.cpp -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_tps.cpp.s
+
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/gui/renderer_2d.cpp.o: CMakeFiles/TinyEngine.dir/flags.make
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/gui/renderer_2d.cpp.o: /Users/coefficriwan/Src/opengl/TinyEngine/engine/gui/renderer_2d.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/coefficriwan/Src/opengl/TinyEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/gui/renderer_2d.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/gui/renderer_2d.cpp.o -c /Users/coefficriwan/Src/opengl/TinyEngine/engine/gui/renderer_2d.cpp
+
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/gui/renderer_2d.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/gui/renderer_2d.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/coefficriwan/Src/opengl/TinyEngine/engine/gui/renderer_2d.cpp > CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/gui/renderer_2d.cpp.i
+
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/gui/renderer_2d.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/gui/renderer_2d.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/coefficriwan/Src/opengl/TinyEngine/engine/gui/renderer_2d.cpp -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/gui/renderer_2d.cpp.s
+
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui.cpp.o: CMakeFiles/TinyEngine.dir/flags.make
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui.cpp.o: /Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/coefficriwan/Src/opengl/TinyEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui.cpp.o -c /Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui.cpp
+
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui.cpp > CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui.cpp.i
+
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui.cpp -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui.cpp.s
+
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_demo.cpp.o: CMakeFiles/TinyEngine.dir/flags.make
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_demo.cpp.o: /Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_demo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/coefficriwan/Src/opengl/TinyEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_demo.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_demo.cpp.o -c /Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_demo.cpp
+
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_demo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_demo.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_demo.cpp > CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_demo.cpp.i
+
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_demo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_demo.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_demo.cpp -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_demo.cpp.s
+
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_draw.cpp.o: CMakeFiles/TinyEngine.dir/flags.make
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_draw.cpp.o: /Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_draw.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/coefficriwan/Src/opengl/TinyEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_draw.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_draw.cpp.o -c /Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_draw.cpp
+
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_draw.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_draw.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_draw.cpp > CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_draw.cpp.i
+
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_draw.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_draw.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_draw.cpp -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_draw.cpp.s
+
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.cpp.o: CMakeFiles/TinyEngine.dir/flags.make
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.cpp.o: /Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/coefficriwan/Src/opengl/TinyEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.cpp.o -c /Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.cpp
+
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.cpp > CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.cpp.i
+
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.cpp -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.cpp.s
+
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.cpp.o: CMakeFiles/TinyEngine.dir/flags.make
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.cpp.o: /Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/coefficriwan/Src/opengl/TinyEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.cpp.o -c /Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.cpp
+
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.cpp > CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.cpp.i
+
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.cpp -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.cpp.s
+
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_widgets.cpp.o: CMakeFiles/TinyEngine.dir/flags.make
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_widgets.cpp.o: /Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_widgets.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/coefficriwan/Src/opengl/TinyEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_widgets.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_widgets.cpp.o -c /Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_widgets.cpp
+
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_widgets.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_widgets.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_widgets.cpp > CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_widgets.cpp.i
+
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_widgets.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_widgets.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_widgets.cpp -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_widgets.cpp.s
+
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/main.cpp.o: CMakeFiles/TinyEngine.dir/flags.make
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/main.cpp.o: /Users/coefficriwan/Src/opengl/TinyEngine/engine/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/coefficriwan/Src/opengl/TinyEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/main.cpp.o -c /Users/coefficriwan/Src/opengl/TinyEngine/engine/main.cpp
+
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/main.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/coefficriwan/Src/opengl/TinyEngine/engine/main.cpp > CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/main.cpp.i
+
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/main.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/coefficriwan/Src/opengl/TinyEngine/engine/main.cpp -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/main.cpp.s
+
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o: CMakeFiles/TinyEngine.dir/flags.make
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o: /Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/coefficriwan/Src/opengl/TinyEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o -c /Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp
+
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp > CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.i
+
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.s
+
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/quad_2d.cpp.o: CMakeFiles/TinyEngine.dir/flags.make
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/quad_2d.cpp.o: /Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/quad_2d.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/coefficriwan/Src/opengl/TinyEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/quad_2d.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/quad_2d.cpp.o -c /Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/quad_2d.cpp
+
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/quad_2d.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/quad_2d.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/quad_2d.cpp > CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/quad_2d.cpp.i
+
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/quad_2d.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/quad_2d.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/quad_2d.cpp -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/quad_2d.cpp.s
+
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/render/frame_buffer.cpp.o: CMakeFiles/TinyEngine.dir/flags.make
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/render/frame_buffer.cpp.o: /Users/coefficriwan/Src/opengl/TinyEngine/engine/render/frame_buffer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/coefficriwan/Src/opengl/TinyEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/render/frame_buffer.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/render/frame_buffer.cpp.o -c /Users/coefficriwan/Src/opengl/TinyEngine/engine/render/frame_buffer.cpp
+
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/render/frame_buffer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/render/frame_buffer.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/coefficriwan/Src/opengl/TinyEngine/engine/render/frame_buffer.cpp > CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/render/frame_buffer.cpp.i
+
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/render/frame_buffer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/render/frame_buffer.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/coefficriwan/Src/opengl/TinyEngine/engine/render/frame_buffer.cpp -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/render/frame_buffer.cpp.s
+
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/render/renderer.cpp.o: CMakeFiles/TinyEngine.dir/flags.make
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/render/renderer.cpp.o: /Users/coefficriwan/Src/opengl/TinyEngine/engine/render/renderer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/coefficriwan/Src/opengl/TinyEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/render/renderer.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/render/renderer.cpp.o -c /Users/coefficriwan/Src/opengl/TinyEngine/engine/render/renderer.cpp
+
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/render/renderer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/render/renderer.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/coefficriwan/Src/opengl/TinyEngine/engine/render/renderer.cpp > CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/render/renderer.cpp.i
+
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/render/renderer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/render/renderer.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/coefficriwan/Src/opengl/TinyEngine/engine/render/renderer.cpp -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/render/renderer.cpp.s
+
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o: CMakeFiles/TinyEngine.dir/flags.make
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o: /Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/coefficriwan/Src/opengl/TinyEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o -c /Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp
+
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp > CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.i
+
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.s
+
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/ressource_manager.cpp.o: CMakeFiles/TinyEngine.dir/flags.make
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/ressource_manager.cpp.o: /Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/ressource_manager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/coefficriwan/Src/opengl/TinyEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/ressource_manager.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/ressource_manager.cpp.o -c /Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/ressource_manager.cpp
+
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/ressource_manager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/ressource_manager.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/ressource_manager.cpp > CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/ressource_manager.cpp.i
+
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/ressource_manager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/ressource_manager.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/ressource_manager.cpp -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/ressource_manager.cpp.s
+
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/shader.cpp.o: CMakeFiles/TinyEngine.dir/flags.make
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/shader.cpp.o: /Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/shader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/coefficriwan/Src/opengl/TinyEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/shader.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/shader.cpp.o -c /Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/shader.cpp
+
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/shader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/shader.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/shader.cpp > CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/shader.cpp.i
+
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/shader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/shader.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/shader.cpp -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/shader.cpp.s
+
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/texture.cpp.o: CMakeFiles/TinyEngine.dir/flags.make
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/texture.cpp.o: /Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/texture.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/coefficriwan/Src/opengl/TinyEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/texture.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/texture.cpp.o -c /Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/texture.cpp
+
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/texture.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/texture.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/texture.cpp > CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/texture.cpp.i
+
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/texture.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/texture.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/texture.cpp -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/texture.cpp.s
+
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/basic_scene.cpp.o: CMakeFiles/TinyEngine.dir/flags.make
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/basic_scene.cpp.o: /Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/basic_scene.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/coefficriwan/Src/opengl/TinyEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/basic_scene.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/basic_scene.cpp.o -c /Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/basic_scene.cpp
+
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/basic_scene.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/basic_scene.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/basic_scene.cpp > CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/basic_scene.cpp.i
+
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/basic_scene.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/basic_scene.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/basic_scene.cpp -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/basic_scene.cpp.s
+
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/menu_scene.cpp.o: CMakeFiles/TinyEngine.dir/flags.make
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/menu_scene.cpp.o: /Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/menu_scene.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/coefficriwan/Src/opengl/TinyEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/menu_scene.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/menu_scene.cpp.o -c /Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/menu_scene.cpp
+
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/menu_scene.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/menu_scene.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/menu_scene.cpp > CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/menu_scene.cpp.i
+
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/menu_scene.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/menu_scene.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/menu_scene.cpp -o CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/menu_scene.cpp.s
 
 # Object files for target TinyEngine
 TinyEngine_OBJECTS = \
-"CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/application/app.cpp.o" \
-"CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/application/event.cpp.o" \
-"CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/app_util.cpp.o" \
-"CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/time_profiler.cpp.o" \
-"CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera.cpp.o" \
-"CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_fps.cpp.o" \
-"CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_tps.cpp.o" \
-"CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/gui/renderer_2d.cpp.o" \
-"CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui.cpp.o" \
-"CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_demo.cpp.o" \
-"CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_draw.cpp.o" \
-"CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.cpp.o" \
-"CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.cpp.o" \
-"CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_widgets.cpp.o" \
-"CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/main.cpp.o" \
-"CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/mesh/quad_2d.cpp.o" \
-"CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/render/frame_buffer.cpp.o" \
-"CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/render/renderer.cpp.o" \
-"CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/mesh.cpp.o" \
-"CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/ressource_manager.cpp.o" \
-"CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/shader.cpp.o" \
-"CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/texture.cpp.o" \
-"CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/scene/basic_scene.cpp.o"
+"CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/application/app.cpp.o" \
+"CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/application/event.cpp.o" \
+"CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/app_util.cpp.o" \
+"CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/input.cpp.o" \
+"CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera.cpp.o" \
+"CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_fps.cpp.o" \
+"CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_tps.cpp.o" \
+"CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/gui/renderer_2d.cpp.o" \
+"CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui.cpp.o" \
+"CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_demo.cpp.o" \
+"CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_draw.cpp.o" \
+"CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.cpp.o" \
+"CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.cpp.o" \
+"CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_widgets.cpp.o" \
+"CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/main.cpp.o" \
+"CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o" \
+"CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/quad_2d.cpp.o" \
+"CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/render/frame_buffer.cpp.o" \
+"CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/render/renderer.cpp.o" \
+"CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o" \
+"CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/ressource_manager.cpp.o" \
+"CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/shader.cpp.o" \
+"CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/texture.cpp.o" \
+"CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/basic_scene.cpp.o" \
+"CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/menu_scene.cpp.o"
 
 # External object files for target TinyEngine
 TinyEngine_EXTERNAL_OBJECTS =
 
-TinyEngine: CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/application/app.cpp.o
-TinyEngine: CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/application/event.cpp.o
-TinyEngine: CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/app_util.cpp.o
-TinyEngine: CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/basic/time_profiler.cpp.o
-TinyEngine: CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera.cpp.o
-TinyEngine: CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_fps.cpp.o
-TinyEngine: CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/camera/camera_tps.cpp.o
-TinyEngine: CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/gui/renderer_2d.cpp.o
-TinyEngine: CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui.cpp.o
-TinyEngine: CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_demo.cpp.o
-TinyEngine: CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_draw.cpp.o
-TinyEngine: CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.cpp.o
-TinyEngine: CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.cpp.o
-TinyEngine: CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/imgui/imgui_widgets.cpp.o
-TinyEngine: CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/main.cpp.o
-TinyEngine: CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/mesh/quad_2d.cpp.o
-TinyEngine: CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/render/frame_buffer.cpp.o
-TinyEngine: CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/render/renderer.cpp.o
-TinyEngine: CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/mesh.cpp.o
-TinyEngine: CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/ressource_manager.cpp.o
-TinyEngine: CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/shader.cpp.o
-TinyEngine: CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/ressource/texture.cpp.o
-TinyEngine: CMakeFiles/TinyEngine.dir/Users/coefficriwan/Public/opengl/TinyEngine/engine/scene/basic_scene.cpp.o
+TinyEngine: CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/application/app.cpp.o
+TinyEngine: CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/application/event.cpp.o
+TinyEngine: CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/app_util.cpp.o
+TinyEngine: CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/input.cpp.o
+TinyEngine: CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera.cpp.o
+TinyEngine: CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_fps.cpp.o
+TinyEngine: CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_tps.cpp.o
+TinyEngine: CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/gui/renderer_2d.cpp.o
+TinyEngine: CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui.cpp.o
+TinyEngine: CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_demo.cpp.o
+TinyEngine: CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_draw.cpp.o
+TinyEngine: CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.cpp.o
+TinyEngine: CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.cpp.o
+TinyEngine: CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_widgets.cpp.o
+TinyEngine: CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/main.cpp.o
+TinyEngine: CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o
+TinyEngine: CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/quad_2d.cpp.o
+TinyEngine: CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/render/frame_buffer.cpp.o
+TinyEngine: CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/render/renderer.cpp.o
+TinyEngine: CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o
+TinyEngine: CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/ressource_manager.cpp.o
+TinyEngine: CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/shader.cpp.o
+TinyEngine: CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/texture.cpp.o
+TinyEngine: CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/basic_scene.cpp.o
+TinyEngine: CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/menu_scene.cpp.o
 TinyEngine: CMakeFiles/TinyEngine.dir/build.make
 TinyEngine: /usr/local/Cellar/glew/2.1.0_1/lib/libGlew.dylib
 TinyEngine: CMakeFiles/TinyEngine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/coefficriwan/Public/opengl/TinyEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking CXX executable TinyEngine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/coefficriwan/Src/opengl/TinyEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Linking CXX executable TinyEngine"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TinyEngine.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -443,6 +473,6 @@ CMakeFiles/TinyEngine.dir/clean:
 .PHONY : CMakeFiles/TinyEngine.dir/clean
 
 CMakeFiles/TinyEngine.dir/depend:
-	cd /Users/coefficriwan/Public/opengl/TinyEngine/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/coefficriwan/Public/opengl/TinyEngine/build /Users/coefficriwan/Public/opengl/TinyEngine/build /Users/coefficriwan/Public/opengl/TinyEngine/build /Users/coefficriwan/Public/opengl/TinyEngine/build /Users/coefficriwan/Public/opengl/TinyEngine/build/CMakeFiles/TinyEngine.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/coefficriwan/Src/opengl/TinyEngine/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/coefficriwan/Src/opengl/TinyEngine/build /Users/coefficriwan/Src/opengl/TinyEngine/build /Users/coefficriwan/Src/opengl/TinyEngine/build /Users/coefficriwan/Src/opengl/TinyEngine/build /Users/coefficriwan/Src/opengl/TinyEngine/build/CMakeFiles/TinyEngine.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/TinyEngine.dir/depend
 

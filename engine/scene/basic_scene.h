@@ -2,8 +2,9 @@
 #define BASIC_SCENE_H
 
 #include "scene.h"
-
 #include "../camera/camera_tps.h"
+
+#include "../mesh/map.h"
 
 class BasicScene : public Scene
 {
@@ -17,10 +18,11 @@ public:
 
 	virtual void resize() override;
 
-	CameraTPS* camera() { return m_camera; }
+	CameraTPS* camera() { return m_camera; };
 
 private:
 	CameraTPS* m_camera;
+	Map* m_map;
 };
 
 #endif //BASIC_SCENE_H
