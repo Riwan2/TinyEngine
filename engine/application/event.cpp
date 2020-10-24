@@ -27,6 +27,7 @@ void Event::update()
 
 	while (SDL_PollEvent(&event)) {
 		ImGui_ImplSDL2_ProcessEvent(&event);
+		Input::processEvent(&event);
 
 		switch (event.type) {
 			case SDL_QUIT:

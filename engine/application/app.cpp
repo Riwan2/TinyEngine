@@ -59,6 +59,8 @@ void App::load()
 	update loop
 */
 
+static bool polygonMode = false;
+
 void App::update()
 {
 	Event::update();
@@ -75,7 +77,15 @@ void App::update()
 
 	glEnable(GL_DEPTH_TEST);
 	glDepthFunc(GL_LESS);
-	glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
+
+	if (Input::keyPressed(SDLK_p)) {
+		polygonMode = !polygonMode;
+	}
+
+	if (polygonMode)
+		glPolygonMode(GL_FRONT_AND_BACK, GL_FILL);
+	else
+		glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
 
 	glViewport(0, 0, displaySize().x, displaySize().y);
 	glClearColor(AppUtil::clearColor().r, AppUtil::clearColor().g, AppUtil::clearColor().b, AppUtil::clearColor().a);

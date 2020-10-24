@@ -5,6 +5,7 @@ CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/applic
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/application/app.cpp.o: /Users/coefficriwan/Src/opengl/TinyEngine/engine/application/app.h
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/application/app.cpp.o: /Users/coefficriwan/Src/opengl/TinyEngine/engine/application/event.h
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/application/app.cpp.o: /Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/app_util.h
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/application/app.cpp.o: /Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/gmath.h
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/application/app.cpp.o: /Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/input.h
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/application/app.cpp.o: /Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera.h
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/application/app.cpp.o: /Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_tps.h
@@ -1735,6 +1736,7 @@ CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/main.cpp.o: /Users/coefficriwan/Src/opengl/TinyEngine/engine/application/app.h
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/main.cpp.o: /Users/coefficriwan/Src/opengl/TinyEngine/engine/application/event.h
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/main.cpp.o: /Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/app_util.h
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/main.cpp.o: /Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/gmath.h
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/main.cpp.o: /Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/input.h
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/main.cpp.o: /Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera.h
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/main.cpp.o: /Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_tps.h
@@ -3437,6 +3439,7 @@ CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressou
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/texture.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/vector_relational.hpp
 
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/basic_scene.cpp.o: /Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/app_util.h
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/basic_scene.cpp.o: /Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/gmath.h
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/basic_scene.cpp.o: /Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/input.h
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/basic_scene.cpp.o: /Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera.h
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/basic_scene.cpp.o: /Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera_tps.h
@@ -3712,6 +3715,7 @@ CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/basic_scene.cpp.o: /usr/local/Cellar/sdl2/2.0.12_1/include/SDL2/close_code.h
 
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/menu_scene.cpp.o: /Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/app_util.h
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/menu_scene.cpp.o: /Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/gmath.h
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/menu_scene.cpp.o: /Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/input.h
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/menu_scene.cpp.o: /Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera.h
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/menu_scene.cpp.o: /Users/coefficriwan/Src/opengl/TinyEngine/engine/component/component.h

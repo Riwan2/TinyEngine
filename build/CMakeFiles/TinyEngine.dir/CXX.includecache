@@ -6,36 +6,14 @@
 
 #IncludeRegexTransform: 
 
-/Users/coefficriwan/Src/opengl/TinyEngine/engine/application/app.cpp
-app.h
-/Users/coefficriwan/Src/opengl/TinyEngine/engine/application/app.h
-
-/Users/coefficriwan/Src/opengl/TinyEngine/engine/application/app.h
-stdexcept
--
-event.h
-/Users/coefficriwan/Src/opengl/TinyEngine/engine/application/event.h
-../render/frame_buffer.h
-/Users/coefficriwan/Src/opengl/TinyEngine/engine/render/frame_buffer.h
-../gui/renderer_2d.h
-/Users/coefficriwan/Src/opengl/TinyEngine/engine/gui/renderer_2d.h
-../entity/ecs.h
-/Users/coefficriwan/Src/opengl/TinyEngine/engine/entity/ecs.h
-../scene/scene_manager.h
-/Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/scene_manager.h
-
-/Users/coefficriwan/Src/opengl/TinyEngine/engine/application/event.h
-../imgui/imgui.h
-/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui.h
-../imgui/imgui_impl_sdl.h
-/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.h
-../imgui/imgui_impl_opengl3.h
-/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.h
-../basic/input.h
-/Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/input.h
-
 /Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/app_util.h
 glm/glm.hpp
+-
+
+/Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/gmath.h
+glm/glm.hpp
+-
+iostream
 -
 
 /Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/input.h
@@ -110,36 +88,6 @@ gui_struct.h
 queue
 -
 
-/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imconfig.h
-
-/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui.h
-imconfig.h
-/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imconfig.h
-float.h
--
-stdarg.h
--
-stddef.h
--
-string.h
--
-assert.h
--
-stdint.h
--
-imgui_user.h
-/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_user.h
-
-/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_opengl3.h
-imgui.h
-/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui.h
-TargetConditionals.h
-/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/TargetConditionals.h
-
-/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui_impl_sdl.h
-imgui.h
-/Users/coefficriwan/Src/opengl/TinyEngine/engine/imgui/imgui.h
-
 /Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.h
 ../ressource/mesh.h
 /Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.h
@@ -149,10 +97,6 @@ GL/glew.h
 -
 glm/glm.hpp
 -
-
-/Users/coefficriwan/Src/opengl/TinyEngine/engine/render/frame_buffer.h
-../ressource/texture.h
-/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/texture.h
 
 /Users/coefficriwan/Src/opengl/TinyEngine/engine/render/renderer.h
 glm/glm.hpp
@@ -228,13 +172,11 @@ scene.h
 ../mesh/map.h
 /Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.h
 
-/Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/menu_scene.h
-scene.h
-/Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/scene.h
-
 /Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/scene.h
 ../basic/input.h
 /Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/input.h
+../basic/gmath.h
+/Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/gmath.h
 ../ressource/ressource_manager.h
 /Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/ressource_manager.h
 ../gui/renderer_2d.h
@@ -245,12 +187,6 @@ scene.h
 /Users/coefficriwan/Src/opengl/TinyEngine/engine/component/component.h
 ../render/renderer.h
 /Users/coefficriwan/Src/opengl/TinyEngine/engine/render/renderer.h
-
-/Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/scene_manager.h
-basic_scene.h
-/Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/basic_scene.h
-menu_scene.h
-/Users/coefficriwan/Src/opengl/TinyEngine/engine/scene/menu_scene.h
 
 /usr/local/Cellar/glew/2.1.0_1/include/GL/glew.h
 stddef.h

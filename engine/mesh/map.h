@@ -14,7 +14,9 @@ public:
 
     //Render the map mesh
     void render() {
+        glDisable(GL_CULL_FACE);
         m_mesh->render();
+        glEnable(GL_CULL_FACE);
     }
 
     //getters and setters

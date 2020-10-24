@@ -2,6 +2,7 @@
 #define SCENE_H
 
 #include "../basic/input.h"
+#include "../basic/gmath.h"
 
 #include "../ressource/ressource_manager.h"
 #include "../gui/renderer_2d.h"
