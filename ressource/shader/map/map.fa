@@ -1,0 +1,25 @@
+#version 330 core
+
+uniform sampler2D aTexture;
+out vec4 FragColor;
+
+in vec3 FragPos;
+in vec3 Normal;
+in vec2 TexCoord;
+
+vec3 light_color = vec3(0.3, 0.4, 0.4);
+
+vec3 calculate_diffuse(vec3 norm, vec3 light_dir)
+{
+	float diffuse = max(dot(norm, light_dir), 0.0);
+	return diffuse * light_color;
+}
+
+void main()
+{
+	vec3 diffuse = calculate_diffuse(Normal, vec3(0, 1, 0.8));
+	FragColor = vec4(diffuse, 1.0);
+
+	//FragColor = texture(aTexture, TexCoord);
+	//FragColor = vec4(0.3, 0.4, 0.4, 1.0);
+}

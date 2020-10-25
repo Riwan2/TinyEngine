@@ -12,7 +12,8 @@ BasicScene::BasicScene()
 	m_camera->distance = 10;
 	//m_camera->set_angleY(120);
 
-	m_map = new Map(glm::vec2(5.0, 5.0), glm::vec2(10, 10), glm::vec3(2.5, 2.5, 0));
+	auto size = glm::vec2(10, 10);
+	m_map = new Map(size, glm::vec2(10, 10), glm::vec3(-size.x / 2, -size.y / 2, 0.0));
 }
 
 BasicScene::~BasicScene()
@@ -24,11 +25,17 @@ BasicScene::~BasicScene()
 void BasicScene::load()
 {
 	//Mesh* mesh = ressourceManager()->load_mesh("dragon", "dragon.obj");
+	Mesh* mesh = ressourceManager()->load_mesh("cube", "cube.obj");
 	Texture* texture = ressourceManager()->load_texture("grass", "grass.jpg");
-	Shader* shader = ressourceManager()->load_shader("shader", "map.vr", "map.fa");
+	ressourceManager()->load_shader("shader", "map/map.vr", "map/map.fa");
+	Shader* shader = ressourceManager()->load_shader("cubeShader", "shader.vr", "shader.fa");
 
 	//Entity* entity = new Entity(mesh, texture, shader);
 	//entityManager()->add_entity("dragon", entity);
+
+	auto player = entityManager()->add_entity("player", new Entity(mesh, texture, shader));
+	player->scale(glm::vec3(0.1));
+	player->move(glm::vec3(1.2, 0.0, 0.1));
 }
 
 bool scroll = false;
@@ -49,47 +56,42 @@ void BasicScene::update()
 	else if (Input::keyDown(SDLK_DOWN))
 		m_camera->move_target(glm::vec3(0, 0, -0.1));
 
-	auto angle = m_camera->angleAround();
-
-	if (Input::mouseScroll().x != 0) {
-		if (!scroll && (Input::mouseScroll().x > 4 || Input::mouseScroll().x < -4)) {
-			scroll = true;
-			amount = Input::mouseScroll().x;
-			begin = m_camera->angleAround();
-		} else {
-			angle = m_camera->angleAround() + Input::mouseScroll().x * 2;
-		}
-	}
-
-	if (scroll) {
-		timer += 0.01;
-		angle = gmath::lerp(begin, begin + amount * 50, timer);
-		if (timer >= 1) {
-			timer = 0;
-			scroll = false;
-		}
-	}
-
-	m_camera->set_angleAround(angle);
-
-	if (timer >= 0.3 || timer == 0)
-		m_camera->move_angleY(Input::mouseScroll().y * 2);
+	m_camera->move_angleAround(Input::mouseScroll().x * 3);
+	m_camera->move_angleY(Input::mouseScroll().y * 2);
 	m_camera->update();
 
 	//auto dragon = entityManager()->get_entity("dragon");
 	//dragon->move(glm::vec3(0.01, 0.0, 0.0));
 
+	auto player = entityManager()->get_entity("player");
+
+	if (Input::keyDown(SDLK_d))
+		player->move(glm::vec3(0.05, 0, 0));
+	else if (Input::keyDown(SDLK_q))
+		player->move(glm::vec3(-0.05, 0, 0));
+
+	if (Input::keyDown(SDLK_z))
+		player->move(glm::vec3(0, 0.0, -0.05));
+	else if (Input::keyDown(SDLK_s))
+		player->move(glm::vec3(0, -0.0, 0.05));
+
+	auto pos = player->transform()->position;
+	auto h = m_map->getMapHeigth(glm::vec2(pos.x, pos.z));
+	player->transform()->position.y = h;
+
+	auto norm = m_map->getMapNormal(glm::vec2(pos.x, pos.z));
+
+	if (glm::any(glm::isnan(norm)))
+		norm = glm::vec3(0, 1, 0);
+
 	//glDisable(GL_CULL_FACE);
 	auto shader = ressourceManager()->get_shader("shader");
 
-	static Transform t;
-	t.rotation = glm::vec3(1.62, 0, 0);
-	t.update();
-
 	shader->bind();
-	shader->set_mat4("model", t.model);
+	shader->set_mat4("model", glm::mat4(1.0));
 	shader->set_mat4("projection_view", m_camera->projection_view());
 
+	ressourceManager()->get_texture("grass")->bind();
 	m_map->render();
 
 	entityManager()->update();

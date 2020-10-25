@@ -29,6 +29,8 @@ void App::init()
 	init_gl();
 	init_imgui();	
 
+	gmath::init_random();
+
 	Event::init(glm::vec2(DISPLAY_WIDTH, DISPLAY_HEIGHT));
 	AppUtil::set_displaySize(displaySize());
 	AppUtil::set_clearColor(CLEAR_COLOR);
@@ -59,7 +61,7 @@ void App::load()
 	update loop
 */
 
-static bool polygonMode = false;
+static bool polygonMode = true;
 
 void App::update()
 {

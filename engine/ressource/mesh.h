@@ -4,12 +4,11 @@
 #include <GL/glew.h>
 #include <vector>
 
-#include <iostream>
 #include <fstream>
 #include <sstream>
 #include <string>
 
-#include <glm/glm.hpp>
+#include "../basic/gmath.h"
 #include <glm/gtc/matrix_transform.hpp>
 
 struct Vertex

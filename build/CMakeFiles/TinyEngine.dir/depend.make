@@ -2018,6 +2018,7 @@ CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/main.c
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/main.cpp.o: /usr/local/Cellar/sdl2/2.0.12_1/include/SDL2/begin_code.h
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/main.cpp.o: /usr/local/Cellar/sdl2/2.0.12_1/include/SDL2/close_code.h
 
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o: /Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/gmath.h
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o: /Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o: /Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.h
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o: /Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.h
@@ -2047,6 +2048,7 @@ CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/m
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/func_vector_relational_simd.inl
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/qualifier.hpp
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/setup.hpp
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_float.hpp
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_half.hpp
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_half.inl
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_mat2x2.hpp
@@ -2068,6 +2070,9 @@ CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/m
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_mat4x4.hpp
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_mat4x4.inl
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_mat4x4_simd.inl
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_quat.hpp
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_quat.inl
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_quat_simd.inl
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_vec1.hpp
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_vec1.inl
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_vec2.hpp
@@ -2119,6 +2124,23 @@ CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/m
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/matrix_projection.hpp
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/matrix_projection.inl
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/matrix_transform.hpp
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_common.hpp
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_common.inl
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_common_simd.inl
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_double.hpp
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_double_precision.hpp
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_exponential.hpp
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_exponential.inl
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_float.hpp
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_float_precision.hpp
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_geometric.hpp
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_geometric.inl
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_relational.hpp
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_relational.inl
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_transform.hpp
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_transform.inl
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_trigonometric.hpp
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_trigonometric.inl
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/scalar_constants.hpp
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/scalar_constants.inl
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/scalar_int_sized.hpp
@@ -2147,6 +2169,8 @@ CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/m
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/vector_int3_sized.hpp
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/vector_int4.hpp
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/vector_int4_sized.hpp
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/vector_relational.hpp
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/vector_relational.inl
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/vector_uint2.hpp
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/vector_uint2_sized.hpp
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/vector_uint3.hpp
@@ -2158,8 +2182,18 @@ CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/m
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/glm.hpp
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/gtc/constants.hpp
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/gtc/constants.inl
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/gtc/epsilon.hpp
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/gtc/epsilon.inl
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/gtc/matrix_transform.hpp
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/gtc/matrix_transform.inl
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/gtc/quaternion.hpp
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/gtc/quaternion.inl
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/gtc/quaternion_simd.inl
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/gtx/component_wise.hpp
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/gtx/component_wise.inl
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/gtx/norm.hpp
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/gtx/norm.inl
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/gtx/quaternion.hpp
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/integer.hpp
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/mat2x2.hpp
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/mat2x3.hpp
@@ -2496,6 +2530,7 @@ CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/render
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/render/frame_buffer.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/vec4.hpp
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/render/frame_buffer.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/vector_relational.hpp
 
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/render/renderer.cpp.o: /Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/gmath.h
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/render/renderer.cpp.o: /Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera.h
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/render/renderer.cpp.o: /Users/coefficriwan/Src/opengl/TinyEngine/engine/entity/ecs.h
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/render/renderer.cpp.o: /Users/coefficriwan/Src/opengl/TinyEngine/engine/entity/transform.h
@@ -2714,6 +2749,7 @@ CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/render
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/render/renderer.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/vec4.hpp
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/render/renderer.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/vector_relational.hpp
 
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o: /Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/gmath.h
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o: /Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o: /Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.h
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o: /usr/local/Cellar/glew/2.1.0_1/include/GL/glew.h
@@ -2742,6 +2778,7 @@ CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressou
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/func_vector_relational_simd.inl
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/qualifier.hpp
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/setup.hpp
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_float.hpp
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_half.hpp
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_half.inl
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_mat2x2.hpp
@@ -2763,6 +2800,9 @@ CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressou
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_mat4x4.hpp
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_mat4x4.inl
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_mat4x4_simd.inl
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_quat.hpp
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_quat.inl
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_quat_simd.inl
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_vec1.hpp
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_vec1.inl
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_vec2.hpp
@@ -2814,6 +2854,23 @@ CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressou
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/matrix_projection.hpp
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/matrix_projection.inl
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/matrix_transform.hpp
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_common.hpp
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_common.inl
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_common_simd.inl
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_double.hpp
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_double_precision.hpp
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_exponential.hpp
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_exponential.inl
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_float.hpp
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_float_precision.hpp
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_geometric.hpp
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_geometric.inl
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_relational.hpp
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_relational.inl
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_transform.hpp
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_transform.inl
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_trigonometric.hpp
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_trigonometric.inl
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/scalar_constants.hpp
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/scalar_constants.inl
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/scalar_int_sized.hpp
@@ -2842,6 +2899,8 @@ CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressou
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/vector_int3_sized.hpp
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/vector_int4.hpp
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/vector_int4_sized.hpp
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/vector_relational.hpp
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/vector_relational.inl
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/vector_uint2.hpp
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/vector_uint2_sized.hpp
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/vector_uint3.hpp
@@ -2853,8 +2912,18 @@ CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressou
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/glm.hpp
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/gtc/constants.hpp
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/gtc/constants.inl
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/gtc/epsilon.hpp
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/gtc/epsilon.inl
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/gtc/matrix_transform.hpp
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/gtc/matrix_transform.inl
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/gtc/quaternion.hpp
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/gtc/quaternion.inl
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/gtc/quaternion_simd.inl
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/gtx/component_wise.hpp
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/gtx/component_wise.inl
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/gtx/norm.hpp
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/gtx/norm.inl
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/gtx/quaternion.hpp
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/integer.hpp
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/mat2x2.hpp
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/mat2x3.hpp
@@ -2880,6 +2949,7 @@ CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressou
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/vec4.hpp
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/vector_relational.hpp
 
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/ressource_manager.cpp.o: /Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/gmath.h
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/ressource_manager.cpp.o: /Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.h
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/ressource_manager.cpp.o: /Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/ressource_manager.cpp
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/ressource_manager.cpp.o: /Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/ressource_manager.h
@@ -2992,6 +3062,8 @@ CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressou
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/ressource_manager.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_common_simd.inl
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/ressource_manager.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_double.hpp
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/ressource_manager.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_double_precision.hpp
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/ressource_manager.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_exponential.hpp
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/ressource_manager.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_exponential.inl
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/ressource_manager.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_float.hpp
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/ressource_manager.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_float_precision.hpp
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/ressource_manager.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_geometric.hpp
@@ -3063,6 +3135,11 @@ CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressou
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/ressource_manager.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/gtc/type_ptr.hpp
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/ressource_manager.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/gtc/type_ptr.inl
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/ressource_manager.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/gtc/vec1.hpp
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/ressource_manager.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/gtx/component_wise.hpp
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/ressource_manager.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/gtx/component_wise.inl
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/ressource_manager.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/gtx/norm.hpp
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/ressource_manager.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/gtx/norm.inl
+CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/ressource_manager.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/gtx/quaternion.hpp
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/ressource_manager.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/integer.hpp
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/ressource_manager.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/mat2x2.hpp
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/ressource_manager.cpp.o: /usr/local/Cellar/glm/0.9.9.8/include/glm/mat2x3.hpp

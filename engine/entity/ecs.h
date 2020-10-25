@@ -176,9 +176,12 @@ public:
     }
 
     void rotate(const glm::vec3& rotation) {
-        transform()->rotation.x += glm::radians(fmod(rotation.x, 360));
-        transform()->rotation.y += glm::radians(fmod(rotation.y, 360));
-        transform()->rotation.z += glm::radians(fmod(rotation.z, 360));
+        transform()->rotate(rotation);
+        moved = true;
+    }
+
+    void set_rotation(const glm::vec3& rotation) {
+        transform()->set_rotation(rotation);
         moved = true;
     }
 
@@ -242,7 +245,7 @@ public:
         }
     }
 
-    void add_entity(std::string&& name, Entity* entity)
+    Entity* add_entity(std::string&& name, Entity* entity)
     {
         auto it = m_entities.find(name);
 
@@ -251,6 +254,7 @@ public:
 
         m_entities.emplace(name, entity);
         std::cout << "entity: added [" + name + "]" << std::endl;
+        return entity;
     }
 
     void add_batch(std::string&& name)

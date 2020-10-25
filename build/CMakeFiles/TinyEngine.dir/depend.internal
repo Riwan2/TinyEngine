@@ -2019,6 +2019,7 @@ CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/main.c
  /usr/local/Cellar/sdl2/2.0.12_1/include/SDL2/begin_code.h
  /usr/local/Cellar/sdl2/2.0.12_1/include/SDL2/close_code.h
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp.o
+ /Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/gmath.h
  /Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.cpp
  /Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/map.h
  /Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.h
@@ -2048,6 +2049,7 @@ CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/m
  /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/func_vector_relational_simd.inl
  /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/qualifier.hpp
  /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/setup.hpp
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_float.hpp
  /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_half.hpp
  /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_half.inl
  /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_mat2x2.hpp
@@ -2069,6 +2071,9 @@ CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/m
  /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_mat4x4.hpp
  /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_mat4x4.inl
  /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_mat4x4_simd.inl
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_quat.hpp
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_quat.inl
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_quat_simd.inl
  /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_vec1.hpp
  /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_vec1.inl
  /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_vec2.hpp
@@ -2120,6 +2125,23 @@ CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/m
  /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/matrix_projection.hpp
  /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/matrix_projection.inl
  /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/matrix_transform.hpp
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_common.hpp
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_common.inl
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_common_simd.inl
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_double.hpp
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_double_precision.hpp
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_exponential.hpp
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_exponential.inl
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_float.hpp
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_float_precision.hpp
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_geometric.hpp
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_geometric.inl
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_relational.hpp
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_relational.inl
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_transform.hpp
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_transform.inl
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_trigonometric.hpp
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_trigonometric.inl
  /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/scalar_constants.hpp
  /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/scalar_constants.inl
  /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/scalar_int_sized.hpp
@@ -2148,6 +2170,8 @@ CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/m
  /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/vector_int3_sized.hpp
  /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/vector_int4.hpp
  /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/vector_int4_sized.hpp
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/vector_relational.hpp
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/vector_relational.inl
  /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/vector_uint2.hpp
  /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/vector_uint2_sized.hpp
  /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/vector_uint3.hpp
@@ -2159,8 +2183,18 @@ CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/mesh/m
  /usr/local/Cellar/glm/0.9.9.8/include/glm/glm.hpp
  /usr/local/Cellar/glm/0.9.9.8/include/glm/gtc/constants.hpp
  /usr/local/Cellar/glm/0.9.9.8/include/glm/gtc/constants.inl
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/gtc/epsilon.hpp
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/gtc/epsilon.inl
  /usr/local/Cellar/glm/0.9.9.8/include/glm/gtc/matrix_transform.hpp
  /usr/local/Cellar/glm/0.9.9.8/include/glm/gtc/matrix_transform.inl
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/gtc/quaternion.hpp
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/gtc/quaternion.inl
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/gtc/quaternion_simd.inl
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/gtx/component_wise.hpp
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/gtx/component_wise.inl
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/gtx/norm.hpp
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/gtx/norm.inl
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/gtx/quaternion.hpp
  /usr/local/Cellar/glm/0.9.9.8/include/glm/integer.hpp
  /usr/local/Cellar/glm/0.9.9.8/include/glm/mat2x2.hpp
  /usr/local/Cellar/glm/0.9.9.8/include/glm/mat2x3.hpp
@@ -2497,6 +2531,7 @@ CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/render
  /usr/local/Cellar/glm/0.9.9.8/include/glm/vec4.hpp
  /usr/local/Cellar/glm/0.9.9.8/include/glm/vector_relational.hpp
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/render/renderer.cpp.o
+ /Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/gmath.h
  /Users/coefficriwan/Src/opengl/TinyEngine/engine/camera/camera.h
  /Users/coefficriwan/Src/opengl/TinyEngine/engine/entity/ecs.h
  /Users/coefficriwan/Src/opengl/TinyEngine/engine/entity/transform.h
@@ -2715,6 +2750,7 @@ CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/render
  /usr/local/Cellar/glm/0.9.9.8/include/glm/vec4.hpp
  /usr/local/Cellar/glm/0.9.9.8/include/glm/vector_relational.hpp
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp.o
+ /Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/gmath.h
  /Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.cpp
  /Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.h
  /usr/local/Cellar/glew/2.1.0_1/include/GL/glew.h
@@ -2743,6 +2779,7 @@ CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressou
  /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/func_vector_relational_simd.inl
  /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/qualifier.hpp
  /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/setup.hpp
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_float.hpp
  /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_half.hpp
  /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_half.inl
  /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_mat2x2.hpp
@@ -2764,6 +2801,9 @@ CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressou
  /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_mat4x4.hpp
  /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_mat4x4.inl
  /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_mat4x4_simd.inl
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_quat.hpp
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_quat.inl
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_quat_simd.inl
  /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_vec1.hpp
  /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_vec1.inl
  /usr/local/Cellar/glm/0.9.9.8/include/glm/detail/type_vec2.hpp
@@ -2815,6 +2855,23 @@ CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressou
  /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/matrix_projection.hpp
  /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/matrix_projection.inl
  /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/matrix_transform.hpp
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_common.hpp
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_common.inl
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_common_simd.inl
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_double.hpp
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_double_precision.hpp
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_exponential.hpp
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_exponential.inl
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_float.hpp
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_float_precision.hpp
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_geometric.hpp
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_geometric.inl
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_relational.hpp
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_relational.inl
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_transform.hpp
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_transform.inl
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_trigonometric.hpp
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_trigonometric.inl
  /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/scalar_constants.hpp
  /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/scalar_constants.inl
  /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/scalar_int_sized.hpp
@@ -2843,6 +2900,8 @@ CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressou
  /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/vector_int3_sized.hpp
  /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/vector_int4.hpp
  /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/vector_int4_sized.hpp
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/vector_relational.hpp
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/vector_relational.inl
  /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/vector_uint2.hpp
  /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/vector_uint2_sized.hpp
  /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/vector_uint3.hpp
@@ -2854,8 +2913,18 @@ CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressou
  /usr/local/Cellar/glm/0.9.9.8/include/glm/glm.hpp
  /usr/local/Cellar/glm/0.9.9.8/include/glm/gtc/constants.hpp
  /usr/local/Cellar/glm/0.9.9.8/include/glm/gtc/constants.inl
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/gtc/epsilon.hpp
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/gtc/epsilon.inl
  /usr/local/Cellar/glm/0.9.9.8/include/glm/gtc/matrix_transform.hpp
  /usr/local/Cellar/glm/0.9.9.8/include/glm/gtc/matrix_transform.inl
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/gtc/quaternion.hpp
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/gtc/quaternion.inl
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/gtc/quaternion_simd.inl
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/gtx/component_wise.hpp
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/gtx/component_wise.inl
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/gtx/norm.hpp
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/gtx/norm.inl
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/gtx/quaternion.hpp
  /usr/local/Cellar/glm/0.9.9.8/include/glm/integer.hpp
  /usr/local/Cellar/glm/0.9.9.8/include/glm/mat2x2.hpp
  /usr/local/Cellar/glm/0.9.9.8/include/glm/mat2x3.hpp
@@ -2881,6 +2950,7 @@ CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressou
  /usr/local/Cellar/glm/0.9.9.8/include/glm/vec4.hpp
  /usr/local/Cellar/glm/0.9.9.8/include/glm/vector_relational.hpp
 CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/ressource_manager.cpp.o
+ /Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/gmath.h
  /Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/mesh.h
  /Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/ressource_manager.cpp
  /Users/coefficriwan/Src/opengl/TinyEngine/engine/ressource/ressource_manager.h
@@ -2993,6 +3063,8 @@ CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressou
  /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_common_simd.inl
  /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_double.hpp
  /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_double_precision.hpp
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_exponential.hpp
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_exponential.inl
  /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_float.hpp
  /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_float_precision.hpp
  /usr/local/Cellar/glm/0.9.9.8/include/glm/ext/quaternion_geometric.hpp
@@ -3064,6 +3136,11 @@ CMakeFiles/TinyEngine.dir/Users/coefficriwan/Src/opengl/TinyEngine/engine/ressou
  /usr/local/Cellar/glm/0.9.9.8/include/glm/gtc/type_ptr.hpp
  /usr/local/Cellar/glm/0.9.9.8/include/glm/gtc/type_ptr.inl
  /usr/local/Cellar/glm/0.9.9.8/include/glm/gtc/vec1.hpp
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/gtx/component_wise.hpp
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/gtx/component_wise.inl
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/gtx/norm.hpp
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/gtx/norm.inl
+ /usr/local/Cellar/glm/0.9.9.8/include/glm/gtx/quaternion.hpp
  /usr/local/Cellar/glm/0.9.9.8/include/glm/integer.hpp
  /usr/local/Cellar/glm/0.9.9.8/include/glm/mat2x2.hpp
  /usr/local/Cellar/glm/0.9.9.8/include/glm/mat2x3.hpp

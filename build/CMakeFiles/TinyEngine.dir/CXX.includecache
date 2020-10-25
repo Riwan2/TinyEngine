@@ -15,6 +15,14 @@ glm/glm.hpp
 -
 iostream
 -
+time.h
+-
+stdlib.h
+-
+glm/gtc/quaternion.hpp
+-
+glm/gtx/quaternion.hpp
+-
 
 /Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/input.h
 SDL.h
@@ -111,16 +119,14 @@ GL/glew.h
 -
 vector
 -
-iostream
--
 fstream
 -
 sstream
 -
 string
 -
-glm/glm.hpp
--
+../basic/gmath.h
+/Users/coefficriwan/Src/opengl/TinyEngine/engine/basic/gmath.h
 glm/gtc/matrix_transform.hpp
 -
 

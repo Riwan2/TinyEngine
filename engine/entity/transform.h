@@ -18,9 +18,9 @@ struct Transform
 	Transform(glm::vec3 pos = glm::vec3(0.0), glm::vec3 rot = glm::vec3(0.0), glm::vec3 scl = glm::vec3(1.0)) 
 	{
 		position = pos;
-		rotation = rot;
+		m_rotation = rot;
 		scale = scl;
-		quaternion = glm::quat(rotation);
+		quaternion = glm::quat(m_rotation);
 		model = glm::mat4(1.0);
 	}
 
@@ -30,17 +30,35 @@ struct Transform
 		model = glm::translate(model, position);
 
 		model = glm::scale(model, scale);
-
-		quaternion = glm::quat(rotation);
 		model *= glm::toMat4(quaternion);
 	}
 
+	void rotate(const glm::vec3& rot) 
+	{
+		m_rotation.x += glm::radians(fmod(rot.x, 360));
+        m_rotation.y += glm::radians(fmod(rot.y, 360));
+        m_rotation.z += glm::radians(fmod(rot.z, 360));
+		quaternion = glm::quat(m_rotation);
+	}
+
+	void set_rotation(const glm::vec3& rot)
+	{
+		m_rotation.x = glm::radians(fmod(rot.x, 360));
+        m_rotation.y = glm::radians(fmod(rot.y, 360));
+        m_rotation.z = glm::radians(fmod(rot.z, 360));
+		quaternion = glm::quat(m_rotation);
+	}
+
+	glm::vec3& rotation() { return m_rotation; }
+
 	glm::vec3 position;
-	glm::vec3 rotation;
 	glm::vec3 scale;
 
 	glm::quat quaternion;
 	glm::mat4 model;
+
+private:
+	glm::vec3 m_rotation;
 };
 
 #endif //TRANSFORM_H
